@@ -1,0 +1,2646 @@
+<?xml version='1.0' encoding='utf-8'?>
+<courses>
+
+
+    <course id="1">
+        <title>Python-разработчик</title>
+        <tagline>Востребованная профессия за 10 месяцев с нуля</tagline>
+        <duration>10 месяцев</duration>
+        <practicePercent>80</practicePercent>
+        <projectsCount>6</projectsCount>
+        <description>Этот курс погрузит вас в backend-разработку на Python с нуля.</description>
+        <program>
+            <module>
+                <name>Введение в Python</name>
+                <description>Установка, синтаксис, первые скрипты.</description>
+                <category>Introductory</category>
+                <subtopic seconds="660">Установка и настройка виртуального окружения</subtopic>
+                <subtopic seconds="660">Работа в REPL и скриптовый режим</subtopic>
+                <subtopic seconds="660">Типы данных и переменные</subtopic>
+                <subtopic seconds="660">Условные конструкции</subtopic>
+                <subtopic seconds="660">Циклы for и while</subtopic>
+                <subtopic seconds="660">Функции и области видимости</subtopic>
+            </module>
+            <module>
+                <name>Структуры данных</name>
+                <description>Списки, кортежи, множества и словари.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Создание и изменение списков</subtopic>
+                <subtopic seconds="1800">Методы списков: append, pop, sort</subtopic>
+                <subtopic seconds="1800">Кортежи и их применение</subtopic>
+                <subtopic seconds="1800">Множества и операции над ними</subtopic>
+                <subtopic seconds="1800">Словари: ключ–значение</subtopic>
+                <subtopic seconds="1800">Итерирование по коллекциям</subtopic>
+            </module>
+            <module>
+                <name>Работа с файлами</name>
+                <description>Чтение и запись, форматы CSV и JSON.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Контекстный менеджер with</subtopic>
+                <subtopic seconds="1800">Чтение/запись текстовых файлов</subtopic>
+                <subtopic seconds="1800">Парсинг CSV</subtopic>
+                <subtopic seconds="1800">Сериализация в JSON</subtopic>
+                <subtopic seconds="1800">Обработка ошибок ввода-вывода</subtopic>
+                <subtopic seconds="1800">Модули os и pathlib для работы с путями</subtopic>
+            </module>
+            <module>
+                <name>SQL и ORM</name>
+                <description>Связь с базами через SQLAlchemy и Django ORM.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Основы SQL: SELECT, INSERT, UPDATE</subtopic>
+                <subtopic seconds="1800">Связи one-to-many и many-to-many</subtopic>
+                <subtopic seconds="1800">Модели SQLAlchemy</subtopic>
+                <subtopic seconds="1800">Миграции Alembic</subtopic>
+                <subtopic seconds="1800">Django-модели и QuerySet</subtopic>
+                <subtopic seconds="1800">Оптимизация запросов</subtopic>
+            </module>
+            <module>
+                <name>REST API</name>
+                <description>Создание API на Flask и FastAPI.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Маршрутизация и контроллеры</subtopic>
+                <subtopic seconds="1800">Сериализаторы и Pydantic</subtopic>
+                <subtopic seconds="1800">Аутентификация JWT</subtopic>
+                <subtopic seconds="1800">Валидация входящих данных</subtopic>
+                <subtopic seconds="1800">Документация OpenAPI</subtopic>
+                <subtopic seconds="1800">Тестирование эндпоинтов</subtopic>
+            </module>
+            <module>
+                <name>Асинхронность</name>
+                <description>AsyncIO, aiohttp и параллельные задачи.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Event loop и корутины</subtopic>
+                <subtopic seconds="1800">async/await синтаксис</subtopic>
+                <subtopic seconds="1800">aiohttp для клиент-серверных запросов</subtopic>
+                <subtopic seconds="1800">Параллелизм vs. конкурентность</subtopic>
+                <subtopic seconds="1800">Semaphore и Queue в asyncio</subtopic>
+                <subtopic seconds="1800">Отладка асинхронного кода</subtopic>
+            </module>
+            <module>
+                <name>Тестирование</name>
+                <description>Модуль pytest и мок-объекты.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Установка и основы pytest</subtopic>
+                <subtopic seconds="1800">Фикстуры и параметризация</subtopic>
+                <subtopic seconds="1800">Проверки assert и исключения</subtopic>
+                <subtopic seconds="1800">Модуль unittest vs pytest</subtopic>
+                <subtopic seconds="1800">Mock и Monkeypatch</subtopic>
+                <subtopic seconds="1800">Coverage и отчёты</subtopic>
+            </module>
+            <module>
+                <name>Итоговый проект</name>
+                <description>Развёртывание готового приложения на сервере.</description>
+                <category>Advanced</category>
+                <subtopic seconds="3600">Docker-контейнеризация</subtopic>
+                <subtopic seconds="3600">CI/CD на GitHub Actions</subtopic>
+                <subtopic seconds="3600">Конфигурация Nginx</subtopic>
+                <subtopic seconds="3600">Настройка PostgreSQL в проде</subtopic>
+                <subtopic seconds="3600">Мониторинг и логирование</subtopic>
+                <subtopic seconds="3600">Резервное копирование</subtopic>
+            </module>
+        </program>
+        <employment>middle</employment>
+    </course>
+
+
+    <course id="2">
+        <title>Frontend-разработчик</title>
+        <tagline>Востребованная профессия за 8 месяцев с нуля</tagline>
+        <duration>8 месяцев</duration>
+        <practicePercent>75</practicePercent>
+        <projectsCount>5</projectsCount>
+        <description>Изучите HTML, CSS, JavaScript и современные фреймворки.</description>
+        <program>
+            <module>
+                <name>HTML5 и семантика</name>
+                <description>Структура документа и accessibility.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Теги section, article, nav</subtopic>
+                <subtopic seconds="1800">Атрибуты ARIA</subtopic>
+                <subtopic seconds="1800">Формы и валидация</subtopic>
+                <subtopic seconds="1800">Работа с изображениями и media</subtopic>
+                <subtopic seconds="1800">SEO-оптимизация</subtopic>
+                <subtopic seconds="1800">Таблицы и списки</subtopic>
+            </module>
+            <module>
+                <name>CSS и препроцессоры</name>
+                <description>Flexbox, Grid, Sass/LESS.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Flex container и его свойства</subtopic>
+                <subtopic seconds="1800">Grid-layout: rows и columns</subtopic>
+                <subtopic seconds="1800">Переменные и миксины в Sass</subtopic>
+                <subtopic seconds="1800">Организация стилей по BEM</subtopic>
+                <subtopic seconds="1800">Анимации и переходы</subtopic>
+                <subtopic seconds="1800">Responsive design с media queries</subtopic>
+            </module>
+            <module>
+                <name>JavaScript ES6+</name>
+                <description>Современный синтаксис и возможности.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Let, const и область видимости</subtopic>
+                <subtopic seconds="1800">Стрелочные функции</subtopic>
+                <subtopic seconds="1800">Шаблонные строки</subtopic>
+                <subtopic seconds="1800">Promiсes и async/await</subtopic>
+                <subtopic seconds="1800">Деструктуризация</subtopic>
+                <subtopic seconds="1800">Модули ES</subtopic>
+            </module>
+            <module>
+                <name>Работа с DOM</name>
+                <description>Манипуляции и события.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Поиск элементов: querySelector</subtopic>
+                <subtopic seconds="1800">Создание и удаление узлов</subtopic>
+                <subtopic seconds="1800">Навешивание обработчиков</subtopic>
+                <subtopic seconds="1800">Event delegation</subtopic>
+                <subtopic seconds="1800">Form handling</subtopic>
+                <subtopic seconds="1800">Анимации через класс</subtopic>
+            </module>
+            <module>
+                <name>Fetch API и AJAX</name>
+                <description>Асинхронные запросы к серверу.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Методы GET и POST</subtopic>
+                <subtopic seconds="1800">Обработка JSON</subtopic>
+                <subtopic seconds="1800">Headers и CORS</subtopic>
+                <subtopic seconds="1800">Timeout и retries</subtopic>
+                <subtopic seconds="1800">Error handling</subtopic>
+                <subtopic seconds="1800">Polling и WebSocket basics</subtopic>
+            </module>
+            <module>
+                <name>Фреймворки</name>
+                <description>React, Vue, Angular — выбор и основы.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">JSX и Virtual DOM (React)</subtopic>
+                <subtopic seconds="1800">Vue-компоненты и директивы</subtopic>
+                <subtopic seconds="1800">Angular modules и services</subtopic>
+                <subtopic seconds="1800">CLI-инструменты</subtopic>
+                <subtopic seconds="1800">Router и state</subtopic>
+                <subtopic seconds="1800">Жизненный цикл компонента</subtopic>
+            </module>
+            <module>
+                <name>State Management</name>
+                <description>Redux, Vuex, Context API.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Store и Actions</subtopic>
+                <subtopic seconds="1800">Reducers и Mutations</subtopic>
+                <subtopic seconds="1800">Thunk и Saga</subtopic>
+                <subtopic seconds="1800">DevTools и отладка</subtopic>
+                <subtopic seconds="1800">Persistent state</subtopic>
+                <subtopic seconds="1800">Композиция модулей</subtopic>
+            </module>
+            <module>
+                <name>Итоговый SPA-проект</name>
+                <description>Одностраничное приложение с аутентификацией.</description>
+                <category>Advanced</category>
+                <subtopic seconds="3600">Структура проекта</subtopic>
+                <subtopic seconds="3600">Авторизация и хранение токенов</subtopic>
+                <subtopic seconds="3600">Защищённые маршруты</subtopic>
+                <subtopic seconds="3600">CRUD-операции</subtopic>
+                <subtopic seconds="3600">Деплой на Netlify/Vercel</subtopic>
+                <subtopic seconds="3600">Оптимизация bundle size</subtopic>
+            </module>
+        </program>
+        <employment>middle</employment>
+    </course>
+
+
+    <course id="3">
+        <title>Java-разработчик</title>
+        <tagline>Востребованная профессия за 9 месяцев с нуля</tagline>
+        <duration>9 месяцев</duration>
+        <practicePercent>70</practicePercent>
+        <projectsCount>5</projectsCount>
+        <description>Backend-разработка на Java: Spring, Hibernate, REST.</description>
+        <program>
+            <module>
+                <name>Core Java</name>
+                <description>ООП, generics, коллекции.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Классы и объекты</subtopic>
+                <subtopic seconds="1800">Наследование и полиморфизм</subtopic>
+                <subtopic seconds="1800">Интерфейсы и лямбды</subtopic>
+                <subtopic seconds="1800">Generics</subtopic>
+                <subtopic seconds="1800">Коллекции и Stream API</subtopic>
+                <subtopic seconds="1800">Исключения и их обработка</subtopic>
+            </module>
+            <module>
+                <name>JDBC и Hibernate</name>
+                <description>Доступ к БД и ORM.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">JDBC драйвера</subtopic>
+                <subtopic seconds="1800">PreparedStatement vs Statement</subtopic>
+                <subtopic seconds="1800">Mapping сущностей</subtopic>
+                <subtopic seconds="1800">Lazy vs Eager loading</subtopic>
+                <subtopic seconds="1800">Каскадные операции</subtopic>
+                <subtopic seconds="1800">Миграции Flyway</subtopic>
+            </module>
+            <module>
+                <name>Spring Boot</name>
+                <description>Автоконфигурация и REST.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Starter-зависимости</subtopic>
+                <subtopic seconds="1800">Аннотации @RestController</subtopic>
+                <subtopic seconds="1800">@RequestMapping и параметры</subtopic>
+                <subtopic seconds="1800">Автовнедрение через @Autowired</subtopic>
+                <subtopic seconds="1800">Properties и YAML-конфиг</subtopic>
+                <subtopic seconds="1800">Actuator и мониторинг</subtopic>
+            </module>
+            <module>
+                <name>Spring Security</name>
+                <description>Защита приложений и JWT.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Конфигурация HttpSecurity</subtopic>
+                <subtopic seconds="1800">Фильтры и цепочки</subtopic>
+                <subtopic seconds="1800">UserDetailsService</subtopic>
+                <subtopic seconds="1800">Role-based access</subtopic>
+                <subtopic seconds="1800">Генерация и валидация JWT</subtopic>
+                <subtopic seconds="1800">CORS и CSRF</subtopic>
+            </module>
+            <module>
+                <name>Инструменты сборки</name>
+                <description>Maven и Gradle.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">POM-структура</subtopic>
+                <subtopic seconds="1800">Зависимости и плагины</subtopic>
+                <subtopic seconds="1800">Скрипты Gradle</subtopic>
+                <subtopic seconds="1800">Profiles и каноны</subtopic>
+                <subtopic seconds="1800">Сборка shaded-JAR</subtopic>
+                <subtopic seconds="1800">CI сборка в Jenkins</subtopic>
+            </module>
+            <module>
+                <name>Тестирование</name>
+                <description>JUnit 5 и Mockito.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Аннотации @Test, @BeforeEach</subtopic>
+                <subtopic seconds="1800">Assertions и Assumptions</subtopic>
+                <subtopic seconds="1800">Mocking через Mockito</subtopic>
+                <subtopic seconds="1800">Параметризированные тесты</subtopic>
+                <subtopic seconds="1800">Интеграционные тесты</subtopic>
+                <subtopic seconds="1800">Testcontainers</subtopic>
+            </module>
+            <module>
+                <name>Профилирование JVM</name>
+                <description>GC-тюнинг и VisualVM.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Настройка garbage-collector</subtopic>
+                <subtopic seconds="1800">Мониторинг метрик</subtopic>
+                <subtopic seconds="1800">Heap dumps и thread dumps</subtopic>
+                <subtopic seconds="1800">Flight Recorder</subtopic>
+                <subtopic seconds="1800">JFR анализ</subtopic>
+                <subtopic seconds="1800">Оптимизация памяти</subtopic>
+            </module>
+            <module>
+                <name>Итоговый проект</name>
+                <description>Микросервисное приложение с REST и БД.</description>
+                <category>Advanced</category>
+                <subtopic seconds="3600">Архитектура сервиса</subtopic>
+                <subtopic seconds="3600">Докеризация</subtopic>
+                <subtopic seconds="3600">CI/CD</subtopic>
+                <subtopic seconds="3600">Оркестрация Docker Compose</subtopic>
+                <subtopic seconds="3600">Load balancing</subtopic>
+                <subtopic seconds="3600">Документация Swagger</subtopic>
+            </module>
+        </program>
+        <employment>junior</employment>
+    </course>
+
+
+    <course id="4">
+        <title>Flutter-разработчик</title>
+        <tagline>Востребованная профессия за 7 месяцев с нуля</tagline>
+        <duration>7 месяцев</duration>
+        <practicePercent>85</practicePercent>
+        <projectsCount>4</projectsCount>
+        <description>Кроссплатформенная мобильная разработка на Dart/Flutter.</description>
+        <program>
+            <module>
+                <name>Введение в Flutter</name>
+                <description>Установка SDK, структура проекта.</description>
+                <category>Introductory</category>
+                <subtopic seconds="660">Установка Flutter и Dart SDK</subtopic>
+                <subtopic seconds="660">Создание первого проекта</subtopic>
+                <subtopic seconds="660">Структура папок</subtopic>
+                <subtopic seconds="660">Запуск на эмуляторе</subtopic>
+                <subtopic seconds="660">Hot reload vs hot restart</subtopic>
+                <subtopic seconds="660">Flutter doctor</subtopic>
+            </module>
+            <module>
+                <name>Dart Basics</name>
+                <description>Синтаксис и особенности языка.</description>
+                <category>Introductory</category>
+                <subtopic seconds="660">Типы данных и null safety</subtopic>
+                <subtopic seconds="660">Функции и замыкания</subtopic>
+                <subtopic seconds="660">Коллекции List, Map, Set</subtopic>
+                <subtopic seconds="660">Mixin и extension methods</subtopic>
+                <subtopic seconds="660">Асинхронность Future и Stream</subtopic>
+                <subtopic seconds="660">Обработка исключений</subtopic>
+            </module>
+            <module>
+                <name>Widgets 101</name>
+                <description>Stateless vs Stateful.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Понятие виджета</subtopic>
+                <subtopic seconds="1800">StatelessWidget</subtopic>
+                <subtopic seconds="1800">StatefulWidget и State</subtopic>
+                <subtopic seconds="1800">Жизненный цикл виджета</subtopic>
+                <subtopic seconds="1800">Вложенные виджеты</subtopic>
+                <subtopic seconds="1800">Custom widget</subtopic>
+            </module>
+            <module>
+                <name>Layout &amp; Navigation</name>
+                <description>Flex, Stack, маршрутизация.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Row и Column</subtopic>
+                <subtopic seconds="1800">Flex и Expanded</subtopic>
+                <subtopic seconds="1800">Stack и Positioned</subtopic>
+                <subtopic seconds="1800">Navigator 1.0 и 2.0</subtopic>
+                <subtopic seconds="1800">Передача параметров</subtopic>
+                <subtopic seconds="1800">Route guards</subtopic>
+            </module>
+            <module>
+                <name>State Management</name>
+                <description>Provider, Bloc, Riverpod.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Provider basics</subtopic>
+                <subtopic seconds="1800">ChangeNotifier</subtopic>
+                <subtopic seconds="1800">Bloc pattern</subtopic>
+                <subtopic seconds="1800">Сборка сложного UI</subtopic>
+                <subtopic seconds="1800">Dependency injection</subtopic>
+                <subtopic seconds="1800">Riverpod vs Provider</subtopic>
+            </module>
+            <module>
+                <name>Работа с API</name>
+                <description>HTTP, WebSocket.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Пакет http</subtopic>
+                <subtopic seconds="1800">Dio и interceptors</subtopic>
+                <subtopic seconds="1800">WebSocket соединения</subtopic>
+                <subtopic seconds="1800">Парсинг JSON вручную и через json_serializable</subtopic>
+                <subtopic seconds="1800">Обработка ошибок сети</subtopic>
+                <subtopic seconds="1800">Кэширование ответов</subtopic>
+            </module>
+            <module>
+                <name>Анимации и тесты</name>
+                <description>Implicit, Explicit, widget-тестирование.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">AnimatedContainer</subtopic>
+                <subtopic seconds="1800">AnimationController</subtopic>
+                <subtopic seconds="1800">Hero-анимации</subtopic>
+                <subtopic seconds="1800">Widget tests</subtopic>
+                <subtopic seconds="1800">Golden tests</subtopic>
+                <subtopic seconds="1800">Integration tests</subtopic>
+            </module>
+            <module>
+                <name>Итоговый проект</name>
+                <description>Полноценное мобильное приложение.</description>
+                <category>Advanced</category>
+                <subtopic seconds="3600">Архитектура Clean</subtopic>
+                <subtopic seconds="3600">CI/CD для Flutter</subtopic>
+                <subtopic seconds="3600">Release build</subtopic>
+                <subtopic seconds="3600">Мониторинг crashes</subtopic>
+                <subtopic seconds="3600">App Store &amp; Google Play upload</subtopic>
+                <subtopic seconds="3600">Аналитика в приложении</subtopic>
+            </module>
+        </program>
+        <employment>junior</employment>
+    </course>
+
+
+    <course id="5">
+        <title>iOS-разработчик (Swift)</title>
+        <futured>true</futured>
+        <tagline>Востребованная профессия за 8 месяцев с нуля</tagline>
+        <duration>8 месяцев</duration>
+        <practicePercent>80</practicePercent>
+        <projectsCount>5</projectsCount>
+        <description>Мобильная разработка под iOS на Swift и UIKit/SwiftUI.</description>
+        <program>
+            <module>
+                <name>Xcode и Interface Builder</name>
+                <description>Навигация по IDE и storyboard.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Установка Xcode</subtopic>
+                <subtopic seconds="1800">Работа со схемами сборки</subtopic>
+                <subtopic seconds="1800">Storyboard vs XIB</subtopic>
+                <subtopic seconds="1800">Auto Layout basics</subtopic>
+                <subtopic seconds="1800">Constraints priority</subtopic>
+                <subtopic seconds="1800">Preview canvas</subtopic>
+            </module>
+            <module>
+                <name>Swift Essentials</name>
+                <description>Синтаксис и ключевые возможности.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Optionals и guard</subtopic>
+                <subtopic seconds="1800">Closures</subtopic>
+                <subtopic seconds="1800">Struct vs Class</subtopic>
+                <subtopic seconds="1800">Protocol-oriented programming</subtopic>
+                <subtopic seconds="1800">Error handling try/catch</subtopic>
+                <subtopic seconds="1800">Extensions и Generics</subtopic>
+            </module>
+            <module>
+                <name>UIKit vs SwiftUI</name>
+                <description>Imperative vs Declarative UI.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">UIViewController lifecycle</subtopic>
+                <subtopic seconds="1800">UIView и subviews</subtopic>
+                <subtopic seconds="1800">SwiftUI View и modifiers</subtopic>
+                <subtopic seconds="1800">Bindings и State</subtopic>
+                <subtopic seconds="1800">NavigationView и List</subtopic>
+                <subtopic seconds="1800">Комбинирование UIKit и SwiftUI</subtopic>
+            </module>
+            <module>
+                <name>Networking</name>
+                <description>URLSession и third-party библиотеки.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">GET и POST запросы</subtopic>
+                <subtopic seconds="1800">URLRequest и URLSession</subtopic>
+                <subtopic seconds="1800">Codable и JSONDecoder</subtopic>
+                <subtopic seconds="1800">Alamofire basics</subtopic>
+                <subtopic seconds="1800">Combine и dataTaskPublisher</subtopic>
+                <subtopic seconds="1800">Обработка ошибок сети</subtopic>
+            </module>
+            <module>
+                <name>Работа с данными</name>
+                <description>CoreData и UserDefaults.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">CoreData Stack</subtopic>
+                <subtopic seconds="1800">Entity и NSManagedObject</subtopic>
+                <subtopic seconds="1800">FetchRequest и predicates</subtopic>
+                <subtopic seconds="1800">UserDefaults для простых данных</subtopic>
+                <subtopic seconds="1800">Keychain basics</subtopic>
+                <subtopic seconds="1800">Синхронизация с iCloud</subtopic>
+            </module>
+            <module>
+                <name>Тестирование и CI</name>
+                <description>Unit, UI-тесты и Fastlane.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">XCTest basics</subtopic>
+                <subtopic seconds="1800">UI тесты через XCUITest</subtopic>
+                <subtopic seconds="1800">Mocking network calls</subtopic>
+                <subtopic seconds="1800">Fastlane setup</subtopic>
+                <subtopic seconds="1800">Beta-distribution</subtopic>
+                <subtopic seconds="1800">Code coverage</subtopic>
+            </module>
+            <module>
+                <name>Итоговый проект</name>
+                <description>Полноценное iOS-приложение с авторизацией.</description>
+                <category>Advanced</category>
+                <subtopic seconds="3600">App architecture MVC/MVVM</subtopic>
+                <subtopic seconds="3600">Integrate REST API</subtopic>
+                <subtopic seconds="3600">Push notifications</subtopic>
+                <subtopic seconds="3600">App Store submission</subtopic>
+                <subtopic seconds="3600">Analytics integration</subtopic>
+                <subtopic seconds="3600">Crashlytics setup</subtopic>
+            </module>
+        </program>
+        <employment>junior</employment>
+    </course>
+
+
+    <course id="6">
+        <title>Android-разработчик (Kotlin)</title>
+        <tagline>Востребованная профессия за 8 месяцев с нуля</tagline>
+        <duration>8 месяцев</duration>
+        <practicePercent>80</practicePercent>
+        <projectsCount>5</projectsCount>
+        <description>Мобильная разработка под Android на Kotlin и Jetpack.</description>
+        <program>
+            <module>
+                <name>Введение и окружение</name>
+                <description>Android Studio и эмуляторы.</description>
+                <category>Introductory</category>
+                <subtopic seconds="660">Установка Android Studio</subtopic>
+                <subtopic seconds="660">AVD Manager</subtopic>
+                <subtopic seconds="660">Project structure</subtopic>
+                <subtopic seconds="660">Gradle sync</subtopic>
+                <subtopic seconds="660">Logcat и отладка</subtopic>
+                <subtopic seconds="660">Lint checks</subtopic>
+            </module>
+            <module>
+                <name>Kotlin Basics</name>
+                <description>Синтаксис и особенности языка.</description>
+                <category>Introductory</category>
+                <subtopic seconds="660">Null safety</subtopic>
+                <subtopic seconds="660">Data classes</subtopic>
+                <subtopic seconds="660">Coroutines basics</subtopic>
+                <subtopic seconds="660">Extension functions</subtopic>
+                <subtopic seconds="660">Sealed classes</subtopic>
+                <subtopic seconds="660">Delegation</subtopic>
+            </module>
+            <module>
+                <name>UI и Layout</name>
+                <description>XML, ConstraintLayout, Material Design.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">ConstraintSet и Barriers</subtopic>
+                <subtopic seconds="1800">RecyclerView и adapters</subtopic>
+                <subtopic seconds="1800">Custom views</subtopic>
+                <subtopic seconds="1800">Material components</subtopic>
+                <subtopic seconds="1800">Theme and styles</subtopic>
+                <subtopic seconds="1800">Vector drawables</subtopic>
+            </module>
+            <module>
+                <name>Jetpack Components</name>
+                <description>ViewModel, LiveData, Navigation.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">MVVM architecture</subtopic>
+                <subtopic seconds="1800">ViewBinding vs DataBinding</subtopic>
+                <subtopic seconds="1800">Navigation Graph</subtopic>
+                <subtopic seconds="1800">SafeArgs</subtopic>
+                <subtopic seconds="1800">WorkManager basics</subtopic>
+                <subtopic seconds="1800">Paging library</subtopic>
+            </module>
+            <module>
+                <name>Сеть и БД</name>
+                <description>Retrofit, Room, Moshi/Gson.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Настройка Retrofit</subtopic>
+                <subtopic seconds="1800">Moshi vs Gson</subtopic>
+                <subtopic seconds="1800">Room entities и DAO</subtopic>
+                <subtopic seconds="1800">Migration scripts</subtopic>
+                <subtopic seconds="1800">LiveData и Flow</subtopic>
+                <subtopic seconds="1800">OkHttp interceptors</subtopic>
+            </module>
+            <module>
+                <name>Тестирование</name>
+                <description>Unit, UI и интеграционные тесты.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">JUnit5 и MockK</subtopic>
+                <subtopic seconds="1800">Espresso basics</subtopic>
+                <subtopic seconds="1800">Robolectric</subtopic>
+                <subtopic seconds="1800">UI Automator</subtopic>
+                <subtopic seconds="1800">Coverage reports</subtopic>
+                <subtopic seconds="1800">CI на GitHub Actions</subtopic>
+            </module>
+            <module>
+                <name>Итоговый проект</name>
+                <description>Мобильное приложение с Firebase.</description>
+                <category>Advanced</category>
+                <subtopic seconds="3600">Authentication</subtopic>
+                <subtopic seconds="3600">Firestore integration</subtopic>
+                <subtopic seconds="3600">Realtime database</subtopic>
+                <subtopic seconds="3600">Crashlytics and Analytics</subtopic>
+                <subtopic seconds="3600">Release build и ProGuard</subtopic>
+                <subtopic seconds="3600">Play Store deployment</subtopic>
+            </module>
+        </program>
+        <employment>junior</employment>
+    </course>
+
+
+    <course id="7">
+        <title>DevOps Engineer</title>
+        <tagline>Востребованная профессия за 6 месяцев с нуля</tagline>
+        <duration>6 месяцев</duration>
+        <practicePercent>70</practicePercent>
+        <projectsCount>4</projectsCount>
+        <description>CI/CD, контейнеризация и облачные решения.</description>
+        <program>
+            <module>
+                <name>Основы Linux и Bash</name>
+                <description>Работа в shell и скрипты.</description>
+                <category>Introductory</category>
+                <subtopic seconds="660">Команды файловой системы</subtopic>
+                <subtopic seconds="660">Права доступа</subtopic>
+                <subtopic seconds="660">Shell скрипты</subtopic>
+                <subtopic seconds="660">Cron и планировщик задач</subtopic>
+                <subtopic seconds="660">grep, awk, sed</subtopic>
+                <subtopic seconds="660">SSH и туннелирование</subtopic>
+            </module>
+            <module>
+                <name>CI/CD</name>
+                <description>Jenkins, GitLab CI, GitHub Actions.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Pipeline as code</subtopic>
+                <subtopic seconds="1800">Build triggers</subtopic>
+                <subtopic seconds="1800">Test reports</subtopic>
+                <subtopic seconds="1800">Артефакты сборки</subtopic>
+                <subtopic seconds="1800">Deploy to staging</subtopic>
+                <subtopic seconds="1800">Rollback стратегии</subtopic>
+            </module>
+            <module>
+                <name>Docker и Docker Compose</name>
+                <description>Контейнеризация приложений.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Dockerfile основы</subtopic>
+                <subtopic seconds="1800">Multi-stage builds</subtopic>
+                <subtopic seconds="1800">Volumes и сети</subtopic>
+                <subtopic seconds="1800">Docker Compose сервисы</subtopic>
+                <subtopic seconds="1800">Optimization images</subtopic>
+                <subtopic seconds="1800">Registry и push/pull</subtopic>
+            </module>
+            <module>
+                <name>Kubernetes</name>
+                <description>Оркестрация контейнеров.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Pod, ReplicaSet, Deployment</subtopic>
+                <subtopic seconds="1800">Services и Ingress</subtopic>
+                <subtopic seconds="1800">ConfigMap и Secret</subtopic>
+                <subtopic seconds="1800">Helm charts</subtopic>
+                <subtopic seconds="1800">StatefulSets</subtopic>
+                <subtopic seconds="1800">RBAC и SecurityContext</subtopic>
+            </module>
+            <module>
+                <name>Cloud Providers</name>
+                <description>AWS, Azure, GCP основы.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">EC2 и VM</subtopic>
+                <subtopic seconds="1800">S3 и Blob Storage</subtopic>
+                <subtopic seconds="1800">IAM и роли</subtopic>
+                <subtopic seconds="1800">VPC и NSG</subtopic>
+                <subtopic seconds="1800">Load balancers</subtopic>
+                <subtopic seconds="1800">CloudWatch и Stackdriver</subtopic>
+            </module>
+            <module>
+                <name>Infrastructure as Code</name>
+                <description>Terraform и Ansible.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Terraform state</subtopic>
+                <subtopic seconds="1800">Modules и variables</subtopic>
+                <subtopic seconds="1800">Ansible playbooks</subtopic>
+                <subtopic seconds="1800">Inventory и roles</subtopic>
+                <subtopic seconds="1800">Provisioners</subtopic>
+                <subtopic seconds="1800">Idempotence</subtopic>
+            </module>
+            <module>
+                <name>Итоговый проект</name>
+                <description>Автоматизация развертывания полного стека.</description>
+                <category>Advanced</category>
+                <subtopic seconds="3600">CI/CD end-to-end</subtopic>
+                <subtopic seconds="3600">Container registry</subtopic>
+                <subtopic seconds="3600">Helm deployment</subtopic>
+                <subtopic seconds="3600">Мониторинг Prometheus</subtopic>
+                <subtopic seconds="3600">Alertmanager setup</subtopic>
+                <subtopic seconds="3600">Документация и runbooks</subtopic>
+            </module>
+        </program>
+        <employment>middle</employment>
+    </course>
+
+
+    <course id="8">
+        <title>Data Scientist</title>
+        <futured>true</futured>
+        <tagline>Востребованная профессия за 9 месяцев с нуля</tagline>
+        <duration>9 месяцев</duration>
+        <practicePercent>75</practicePercent>
+        <projectsCount>6</projectsCount>
+        <description>Анализ данных, машинное обучение и визуализация.</description>
+        <program>
+            <module>
+                <name>Python для DS</name>
+                <description>NumPy, pandas основы.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Arrays и индексирование</subtopic>
+                <subtopic seconds="1800">DataFrame операции</subtopic>
+                <subtopic seconds="1800">Группировка и агрегации</subtopic>
+                <subtopic seconds="1800">Merge и join</subtopic>
+                <subtopic seconds="1800">Чтение CSV / Excel</subtopic>
+                <subtopic seconds="1800">Обработка пропусков</subtopic>
+            </module>
+            <module>
+                <name>Визуализация данных</name>
+                <description>Matplotlib и Seaborn.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Plot и Subplot</subtopic>
+                <subtopic seconds="1800">Scatter, line, bar</subtopic>
+                <subtopic seconds="1800">Heatmap и pairplot</subtopic>
+                <subtopic seconds="1800">Настройка легенд</subtopic>
+                <subtopic seconds="1800">Стили графиков</subtopic>
+                <subtopic seconds="1800">Сохранение и экспорт</subtopic>
+            </module>
+            <module>
+                <name>Предобработка данных</name>
+                <description>Encoding, scaling, pipelines.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">LabelEncoder и OneHot</subtopic>
+                <subtopic seconds="1800">StandardScaler vs MinMax</subtopic>
+                <subtopic seconds="1800">Imputer для пропусков</subtopic>
+                <subtopic seconds="1800">Feature engineering</subtopic>
+                <subtopic seconds="1800">Pipeline и ColumnTransformer</subtopic>
+                <subtopic seconds="1800">Cross-validation</subtopic>
+            </module>
+            <module>
+                <name>Основные модели</name>
+                <description>Линейные, деревья решений.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">LinearRegression</subtopic>
+                <subtopic seconds="1800">LogisticRegression</subtopic>
+                <subtopic seconds="1800">DecisionTreeClassifier</subtopic>
+                <subtopic seconds="1800">RandomForest</subtopic>
+                <subtopic seconds="1800">GridSearchCV</subtopic>
+                <subtopic seconds="1800">Метрики качества</subtopic>
+            </module>
+            <module>
+                <name>Продвинутый ML</name>
+                <description>XGBoost, LightGBM, CatBoost.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Классификация vs регрессия</subtopic>
+                <subtopic seconds="1800">Параметры обучения</subtopic>
+                <subtopic seconds="1800">Feature importance</subtopic>
+                <subtopic seconds="1800">Early stopping</subtopic>
+                <subtopic seconds="1800">SHAP объяснения</subtopic>
+                <subtopic seconds="1800">Ensemble методы</subtopic>
+            </module>
+            <module>
+                <name>Нейросети</name>
+                <description>TensorFlow и Keras для новичков.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Sequential API</subtopic>
+                <subtopic seconds="1800">Dense слои</subtopic>
+                <subtopic seconds="1800">Compile и fit</subtopic>
+                <subtopic seconds="1800">Callbacks</subtopic>
+                <subtopic seconds="1800">Model.save и load</subtopic>
+                <subtopic seconds="1800">Over/underfitting</subtopic>
+            </module>
+            <module>
+                <name>Итоговый проект</name>
+                <description>Построение модели на реальных данных.</description>
+                <category>Advanced</category>
+                <subtopic seconds="3600">EDA и отчёт</subtopic>
+                <subtopic seconds="3600">Feature selection</subtopic>
+                <subtopic seconds="3600">Model training</subtopic>
+                <subtopic seconds="3600">Model evaluation</subtopic>
+                <subtopic seconds="3600">Deployment via Flask</subtopic>
+                <subtopic seconds="3600">Документация модели</subtopic>
+            </module>
+        </program>
+        <employment>junior</employment>
+    </course>
+
+
+    <course id="9">
+        <title>Machine Learning Engineer</title>
+        <tagline>Востребованная профессия за 10 месяцев с нуля</tagline>
+        <duration>10 месяцев</duration>
+        <practicePercent>70</practicePercent>
+        <projectsCount>6</projectsCount>
+        <description>Глубокое обучение и MLOps.</description>
+        <program>
+            <module>
+                <name>Математика для ML</name>
+                <description>Линейная алгебра и статистика.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Матрицы и векторы</subtopic>
+                <subtopic seconds="1800">Скалярное и векторное произведение</subtopic>
+                <subtopic seconds="1800">Плотность распределения</subtopic>
+                <subtopic seconds="1800">Метод максимального правдоподобия</subtopic>
+                <subtopic seconds="1800">Градиент и градиентный спуск</subtopic>
+                <subtopic seconds="1800">ROC-кривая</subtopic>
+            </module>
+            <module>
+                <name>Основные алгоритмы</name>
+                <description>KNN, SVM, деревья решений.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">KNN классификация</subtopic>
+                <subtopic seconds="1800">SVM и kernel trick</subtopic>
+                <subtopic seconds="1800">Decision Tree</subtopic>
+                <subtopic seconds="1800">Random Forest</subtopic>
+                <subtopic seconds="1800">Метод опорных векторов</subtopic>
+                <subtopic seconds="1800">Hyperparameter tuning</subtopic>
+            </module>
+            <module>
+                <name>Нейросети</name>
+                <description>TensorFlow и PyTorch.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">TensorFlow basics</subtopic>
+                <subtopic seconds="1800">PyTorch tensors</subtopic>
+                <subtopic seconds="1800">Sequential vs Functional API</subtopic>
+                <subtopic seconds="1800">Autograd в PyTorch</subtopic>
+                <subtopic seconds="1800">Train/Test split</subtopic>
+                <subtopic seconds="1800">Batch normalization</subtopic>
+            </module>
+            <module>
+                <name>Computer Vision</name>
+                <description>CNN и обработка изображений.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Conv2D слои</subtopic>
+                <subtopic seconds="1800">Pooling</subtopic>
+                <subtopic seconds="1800">Data augmentation</subtopic>
+                <subtopic seconds="1800">Transfer learning</subtopic>
+                <subtopic seconds="1800">OpenCV basics</subtopic>
+                <subtopic seconds="1800">Метрики IoU</subtopic>
+            </module>
+            <module>
+                <name>Natural Language Processing</name>
+                <description>Tokenization и embeddings.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Bag of Words</subtopic>
+                <subtopic seconds="1800">TF-IDF</subtopic>
+                <subtopic seconds="1800">Word2Vec и GloVe</subtopic>
+                <subtopic seconds="1800">RNN и LSTM</subtopic>
+                <subtopic seconds="1800">Transformer basics</subtopic>
+                <subtopic seconds="1800">Шаблоны поиска</subtopic>
+            </module>
+            <module>
+                <name>MLOps</name>
+                <description>CI/CD для моделей, Docker, Kubernetes.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Model registry</subtopic>
+                <subtopic seconds="1800">Docker для ML</subtopic>
+                <subtopic seconds="1800">Serving с FastAPI</subtopic>
+                <subtopic seconds="1800">Kubernetes deployment</subtopic>
+                <subtopic seconds="1800">Мониторинг модели</subtopic>
+                <subtopic seconds="1800">MLflow basics</subtopic>
+            </module>
+            <module>
+                <name>Итоговый проект</name>
+                <description>Развёртывание ML-сервиса.</description>
+                <category>Advanced</category>
+                <subtopic seconds="3600">API для предсказаний</subtopic>
+                <subtopic seconds="3600">Load testing</subtopic>
+                <subtopic seconds="3600">Докеризация сервиса</subtopic>
+                <subtopic seconds="3600">Авто-скейлинг</subtopic>
+                <subtopic seconds="3600">CI/CD pipeline</subtopic>
+                <subtopic seconds="3600">Мониторинг и алерты</subtopic>
+            </module>
+        </program>
+        <employment>junior</employment>
+    </course>
+
+
+    <course id="10">
+        <title>AI Engineer</title>
+        <tagline>Востребованная профессия за 10 месяцев с нуля</tagline>
+        <duration>10 месяцев</duration>
+        <practicePercent>60</practicePercent>
+        <projectsCount>5</projectsCount>
+        <description>Генеративный AI, NLP, Computer Vision.</description>
+        <program>
+            <module>
+                <name>Введение в AI</name>
+                <description>Обзор областей и библиотек.</description>
+                <category>Introductory</category>
+                <subtopic seconds="660">История искусственного интеллекта</subtopic>
+                <subtopic seconds="660">Узкие и общие AI-системы</subtopic>
+                <subtopic seconds="660">Обзор фреймворков</subtopic>
+                <subtopic seconds="660">Python для AI</subtopic>
+                <subtopic seconds="660">Этические аспекты</subtopic>
+                <subtopic seconds="660">OpenAI API</subtopic>
+            </module>
+            <module>
+                <name>NLP с Transformers</name>
+                <description>Использование HuggingFace.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Tokenizers</subtopic>
+                <subtopic seconds="1800">Fine-tuning моделей</subtopic>
+                <subtopic seconds="1800">Sequence classification</subtopic>
+                <subtopic seconds="1800">Text generation</subtopic>
+                <subtopic seconds="1800">Named Entity Recognition</subtopic>
+                <subtopic seconds="1800">Summarization</subtopic>
+            </module>
+            <module>
+                <name>Computer Vision</name>
+                <description>OpenCV и нейросети.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Image preprocessing</subtopic>
+                <subtopic seconds="1800">CNN архитектуры</subtopic>
+                <subtopic seconds="1800">Object detection</subtopic>
+                <subtopic seconds="1800">YOLO и SSD</subtopic>
+                <subtopic seconds="1800">Segmentation</subtopic>
+                <subtopic seconds="1800">GAN basics</subtopic>
+            </module>
+            <module>
+                <name>Генеративные модели</name>
+                <description>VAE и GAN.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Архитектура VAE</subtopic>
+                <subtopic seconds="1800">Training GAN</subtopic>
+                <subtopic seconds="1800">DCGAN</subtopic>
+                <subtopic seconds="1800">CycleGAN</subtopic>
+                <subtopic seconds="1800">StyleGAN</subtopic>
+                <subtopic seconds="1800">Применения</subtopic>
+            </module>
+            <module>
+                <name>Reinforcement Learning</name>
+                <description>Основы и Q-learning.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">MDP и виды агентов</subtopic>
+                <subtopic seconds="1800">Policy vs Value methods</subtopic>
+                <subtopic seconds="1800">Deep Q Networks</subtopic>
+                <subtopic seconds="1800">Генерация эпизодов</subtopic>
+                <subtopic seconds="1800">OpenAI Gym</subtopic>
+                <subtopic seconds="1800">Применение в играх</subtopic>
+            </module>
+            <module>
+                <name>MLOps для AI</name>
+                <description>CI/CD и мониторинг.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Model packaging</subtopic>
+                <subtopic seconds="1800">Deployment с Docker</subtopic>
+                <subtopic seconds="1800">CI pipelines</subtopic>
+                <subtopic seconds="1800">Monitoring metrics</subtopic>
+                <subtopic seconds="1800">Experience replay</subtopic>
+                <subtopic seconds="1800">Shadow deployment</subtopic>
+            </module>
+            <module>
+                <name>Итоговый проект</name>
+                <description>Генерация контента или чат-бот.</description>
+                <category>Advanced</category>
+                <subtopic seconds="3600">Design API</subtopic>
+                <subtopic seconds="3600">Fine-tune модель</subtopic>
+                <subtopic seconds="3600">Создание UI для бота</subtopic>
+                <subtopic seconds="3600">Docker &amp; Kubernetes</subtopic>
+                <subtopic seconds="3600">Load testing</subtopic>
+                <subtopic seconds="3600">Документация и презентация</subtopic>
+            </module>
+        </program>
+        <employment>junior</employment>
+    </course>
+
+
+    <course id="11">
+        <title>Cybersecurity Specialist</title>
+        <tagline>Востребованная профессия за 6 месяцев с нуля</tagline>
+        <duration>6 месяцев</duration>
+        <practicePercent>65</practicePercent>
+        <projectsCount>4</projectsCount>
+        <description>Безопасность сетей, пентест, криптография.</description>
+        <program>
+            <module>
+                <name>Основы безопасности</name>
+                <description>Конфиденциальность, целостность, доступность.</description>
+                <category>Introductory</category>
+                <subtopic seconds="660">Триада CIA</subtopic>
+                <subtopic seconds="660">Угрозы и уязвимости</subtopic>
+                <subtopic seconds="660">Типы атак</subtopic>
+                <subtopic seconds="660">Social engineering</subtopic>
+                <subtopic seconds="660">Политики безопасности</subtopic>
+                <subtopic seconds="660">Аудит</subtopic>
+            </module>
+            <module>
+                <name>Сетевые технологии</name>
+                <description>Протоколы, фаерволы, VPN.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">TCP/IP стек</subtopic>
+                <subtopic seconds="1800">Subnetting</subtopic>
+                <subtopic seconds="1800">ACL и NAT</subtopic>
+                <subtopic seconds="1800">OpenVPN</subtopic>
+                <subtopic seconds="1800">IDS/IPS</subtopic>
+                <subtopic seconds="1800">Wi-Fi безопасность</subtopic>
+            </module>
+            <module>
+                <name>Пентест</name>
+                <description>Metasploit, Kali Linux.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Reconnaissance</subtopic>
+                <subtopic seconds="1800">Scanning</subtopic>
+                <subtopic seconds="1800">Exploitation</subtopic>
+                <subtopic seconds="1800">Post-exploitation</subtopic>
+                <subtopic seconds="1800">Отчёты</subtopic>
+                <subtopic seconds="1800">Правовые аспекты</subtopic>
+            </module>
+            <module>
+                <name>Криптография</name>
+                <description>AES, RSA, цифровые подписи.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Симметричное шифрование</subtopic>
+                <subtopic seconds="1800">Асимметричное шифрование</subtopic>
+                <subtopic seconds="1800">Хэш-функции</subtopic>
+                <subtopic seconds="1800">Цифровой сертификат</subtopic>
+                <subtopic seconds="1800">PKI</subtopic>
+                <subtopic seconds="1800">SSL/TLS</subtopic>
+            </module>
+            <module>
+                <name>Безопасность приложений</name>
+                <description>OWASP Top 10.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">SQL Injection</subtopic>
+                <subtopic seconds="1800">XSS</subtopic>
+                <subtopic seconds="1800">CSRF</subtopic>
+                <subtopic seconds="1800">Insecure deserialization</subtopic>
+                <subtopic seconds="1800">Security misconfiguration</subtopic>
+                <subtopic seconds="1800">Верификация ввода</subtopic>
+            </module>
+            <module>
+                <name>Мониторинг и реакция</name>
+                <description>SIEM, ELK stack.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Log collection</subtopic>
+                <subtopic seconds="1800">Alert rules</subtopic>
+                <subtopic seconds="1800">Incident response</subtopic>
+                <subtopic seconds="1800">Forensics basics</subtopic>
+                <subtopic seconds="1800">Threat hunting</subtopic>
+                <subtopic seconds="1800">Reporting</subtopic>
+            </module>
+            <module>
+                <name>Итоговый проект</name>
+                <description>Аудит и защита сети.</description>
+                <category>Advanced</category>
+                <subtopic seconds="3600">Penetration test report</subtopic>
+                <subtopic seconds="3600">Recommendations</subtopic>
+                <subtopic seconds="3600">Security policy</subtopic>
+                <subtopic seconds="3600">Hardening servers</subtopic>
+                <subtopic seconds="3600">Настройка VPN</subtopic>
+                <subtopic seconds="3600">Автоматизация сканирования</subtopic>
+            </module>
+        </program>
+        <employment>senior</employment>
+    </course>
+
+
+    <course id="12">
+        <title>Cloud Architect</title>
+        <tagline>Востребованная профессия за 7 месяцев с нуля</tagline>
+        <duration>7 месяцев</duration>
+        <practicePercent>70</practicePercent>
+        <projectsCount>5</projectsCount>
+        <description>Проектирование архитектуры в AWS, Azure и GCP.</description>
+        <program>
+            <module>
+                <name>Введение в облака</name>
+                <description>Модели IaaS, PaaS, SaaS.</description>
+                <category>Introductory</category>
+                <subtopic seconds="660">IaaS vs PaaS vs SaaS</subtopic>
+                <subtopic seconds="660">Public vs Private vs Hybrid</subtopic>
+                <subtopic seconds="660">Service Level Agreement</subtopic>
+                <subtopic seconds="660">Shared responsibility</subtopic>
+                <subtopic seconds="660">Cost models</subtopic>
+                <subtopic seconds="660">TCO</subtopic>
+            </module>
+            <module>
+                <name>AWS основы</name>
+                <description>EC2, S3, VPC.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Лонч EC2 instance</subtopic>
+                <subtopic seconds="1800">Конфигурация security group</subtopic>
+                <subtopic seconds="1800">Bucket policies</subtopic>
+                <subtopic seconds="1800">Elastic IP</subtopic>
+                <subtopic seconds="1800">Route 53 basics</subtopic>
+                <subtopic seconds="1800">CloudWatch metrics</subtopic>
+            </module>
+            <module>
+                <name>Azure основы</name>
+                <description>VM, Blob Storage, Azure AD.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Azure Resource Manager</subtopic>
+                <subtopic seconds="1800">Azure CLI</subtopic>
+                <subtopic seconds="1800">Virtual Network</subtopic>
+                <subtopic seconds="1800">NSG и Firewall</subtopic>
+                <subtopic seconds="1800">Monitor and Alerts</subtopic>
+                <subtopic seconds="1800">Role-Based Access Control</subtopic>
+            </module>
+            <module>
+                <name>GCP основы</name>
+                <description>Compute Engine, Cloud Storage.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Projects и Billing</subtopic>
+                <subtopic seconds="1800">IAM roles</subtopic>
+                <subtopic seconds="1800">VPC networks</subtopic>
+                <subtopic seconds="1800">Firewall rules</subtopic>
+                <subtopic seconds="1800">Stackdriver monitoring</subtopic>
+                <subtopic seconds="1800">Load balancing</subtopic>
+            </module>
+            <module>
+                <name>Архитектурные шаблоны</name>
+                <description>High-availability и отказоустойчивость.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Multi-AZ deployments</subtopic>
+                <subtopic seconds="1800">Auto scaling</subtopic>
+                <subtopic seconds="1800">DR и backup</subtopic>
+                <subtopic seconds="1800">Load balancers</subtopic>
+                <subtopic seconds="1800">Global CDN</subtopic>
+                <subtopic seconds="1800">Service mesh</subtopic>
+            </module>
+            <module>
+                <name>CI/CD в облаках</name>
+                <description>CodePipeline, Azure DevOps, Cloud Build.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Pipeline as code</subtopic>
+                <subtopic seconds="1800">Build artifacts</subtopic>
+                <subtopic seconds="1800">Deploy stages</subtopic>
+                <subtopic seconds="1800">Rollbacks</subtopic>
+                <subtopic seconds="1800">Approval gates</subtopic>
+                <subtopic seconds="1800">Integration tests</subtopic>
+            </module>
+            <module>
+                <name>Итоговый проект</name>
+                <description>Развёртывание отказоустойчивого приложения.</description>
+                <category>Advanced</category>
+                <subtopic seconds="3600">Terraform configuration</subtopic>
+                <subtopic seconds="3600">Helm charts</subtopic>
+                <subtopic seconds="3600">GitOps workflow</subtopic>
+                <subtopic seconds="3600">Monitoring dashboards</subtopic>
+                <subtopic seconds="3600">Alerting rules</subtopic>
+                <subtopic seconds="3600">Cost optimization</subtopic>
+            </module>
+        </program>
+        <employment>junior</employment>
+    </course>
+
+
+    <course id="13">
+        <title>Database Administrator</title>
+        <tagline>Востребованная профессия за 6 месяцев с нуля</tagline>
+        <duration>6 месяцев</duration>
+        <practicePercent>75</practicePercent>
+        <projectsCount>4</projectsCount>
+        <description>Администрирование MySQL, PostgreSQL и NoSQL баз.</description>
+        <program>
+            <module>
+                <name>Основы SQL</name>
+                <description>DDL, DML, DCL.</description>
+                <category>Introductory</category>
+                <subtopic seconds="660">CREATE/ALTER/DROP</subtopic>
+                <subtopic seconds="660">SELECT/INSERT/UPDATE/DELETE</subtopic>
+                <subtopic seconds="660">GRANT/REVOKE</subtopic>
+                <subtopic seconds="660">Транзакции и блокировки</subtopic>
+                <subtopic seconds="660">Index basics</subtopic>
+                <subtopic seconds="660">Explain plan</subtopic>
+            </module>
+            <module>
+                <name>MySQL администрирование</name>
+                <description>Конфигурация и оптимизация.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">my.cnf параметры</subtopic>
+                <subtopic seconds="1800">InnoDB vs MyISAM</subtopic>
+                <subtopic seconds="1800">Replication master-slave</subtopic>
+                <subtopic seconds="1800">Backup через mysqldump</subtopic>
+                <subtopic seconds="1800">Percona Toolkit</subtopic>
+                <subtopic seconds="1800">Performance Schema</subtopic>
+            </module>
+            <module>
+                <name>PostgreSQL администрирование</name>
+                <description>Tune и расширения.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">postgresql.conf</subtopic>
+                <subtopic seconds="1800">Logical replication</subtopic>
+                <subtopic seconds="1800">pg_dump и pg_restore</subtopic>
+                <subtopic seconds="1800">PostGIS basics</subtopic>
+                <subtopic seconds="1800">Autovacuum</subtopic>
+                <subtopic seconds="1800">Debugging with pgAdmin</subtopic>
+            </module>
+            <module>
+                <name>NoSQL базы</name>
+                <description>MongoDB и Cassandra.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Document vs columnar</subtopic>
+                <subtopic seconds="1800">CRUD в MongoDB</subtopic>
+                <subtopic seconds="1800">CQL основы</subtopic>
+                <subtopic seconds="1800">Replication и sharding</subtopic>
+                <subtopic seconds="1800">TTL и compaction</subtopic>
+                <subtopic seconds="1800">Миграции схем</subtopic>
+            </module>
+            <module>
+                <name>Резервное копирование</name>
+                <description>Полные и инкрементные бэкапы.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Logical vs physical</subtopic>
+                <subtopic seconds="1800">Point-in-time recovery</subtopic>
+                <subtopic seconds="1800">Архивация WAL</subtopic>
+                <subtopic seconds="1800">Restore testing</subtopic>
+                <subtopic seconds="1800">Disaster recovery plan</subtopic>
+                <subtopic seconds="1800">Автоматизация бэкапов</subtopic>
+            </module>
+            <module>
+                <name>Мониторинг и алерты</name>
+                <description>Prometheus и Grafana.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Node_exporter</subtopic>
+                <subtopic seconds="1800">Postgres_exporter</subtopic>
+                <subtopic seconds="1800">Alertmanager rules</subtopic>
+                <subtopic seconds="1800">Custom dashboards</subtopic>
+                <subtopic seconds="1800">Logstash и ELK</subtopic>
+                <subtopic seconds="1800">SNMP monitoring</subtopic>
+            </module>
+            <module>
+                <name>Итоговый проект</name>
+                <description>Проектирование отказоустойчивой БД-системы.</description>
+                <category>Advanced</category>
+                <subtopic seconds="3600">Архитектура кластера</subtopic>
+                <subtopic seconds="3600">Replication setup</subtopic>
+                <subtopic seconds="3600">Failover testing</subtopic>
+                <subtopic seconds="3600">Мониторинг производительности</subtopic>
+                <subtopic seconds="3600">Security hardening</subtopic>
+                <subtopic seconds="3600">Документация</subtopic>
+            </module>
+        </program>
+        <employment>junior</employment>
+    </course>
+
+
+    <course id="14">
+        <title>Network Administrator</title>
+        <futured>true</futured>
+        <tagline>Востребованная профессия за 5 месяцев с нуля</tagline>
+        <duration>5 месяцев</duration>
+        <practicePercent>70</practicePercent>
+        <projectsCount>4</projectsCount>
+        <description>Настройка и обслуживание локальных и корпоративных сетей.</description>
+        <program>
+            <module>
+                <name>Основы сетей</name>
+                <description>Модели OSI и TCP/IP.</description>
+                <category>Introductory</category>
+                <subtopic seconds="660">7-уровневая модель OSI</subtopic>
+                <subtopic seconds="660">IP-адресация и subnetting</subtopic>
+                <subtopic seconds="660">Протокол ARP</subtopic>
+                <subtopic seconds="660">ICMP и ping</subtopic>
+                <subtopic seconds="660">TCP vs UDP</subtopic>
+                <subtopic seconds="660">MTU и фрагментация</subtopic>
+            </module>
+            <module>
+                <name>Маршрутизация</name>
+                <description>Static vs dynamic.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Статические маршруты</subtopic>
+                <subtopic seconds="1800">OSPF basics</subtopic>
+                <subtopic seconds="1800">BGP overview</subtopic>
+                <subtopic seconds="1800">Route redistribution</subtopic>
+                <subtopic seconds="1800">VRF and MPLS</subtopic>
+                <subtopic seconds="1800">Route summarization</subtopic>
+            </module>
+            <module>
+                <name>Коммутирование</name>
+                <description>VLAN и STP.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Конфигурация VLAN</subtopic>
+                <subtopic seconds="1800">Trunk и access порты</subtopic>
+                <subtopic seconds="1800">Rapid Spanning Tree</subtopic>
+                <subtopic seconds="1800">Port security</subtopic>
+                <subtopic seconds="1800">Link aggregation</subtopic>
+                <subtopic seconds="1800">QoS basics</subtopic>
+            </module>
+            <module>
+                <name>Wi-Fi сети</name>
+                <description>Access-points и безопасность.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">SSID и каналы</subtopic>
+                <subtopic seconds="1800">WPA2/WPA3</subtopic>
+                <subtopic seconds="1800">Site survey</subtopic>
+                <subtopic seconds="1800">Roaming</subtopic>
+                <subtopic seconds="1800">Mesh сети</subtopic>
+                <subtopic seconds="1800">Bandwidth management</subtopic>
+            </module>
+            <module>
+                <name>VPN и безопасность</name>
+                <description>IPsec и SSL-VPN.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Site-to-Site VPN</subtopic>
+                <subtopic seconds="1800">Remote Access VPN</subtopic>
+                <subtopic seconds="1800">Firewall basics</subtopic>
+                <subtopic seconds="1800">ACL и NAT</subtopic>
+                <subtopic seconds="1800">IDS/IPS integration</subtopic>
+                <subtopic seconds="1800">SSL/TLS handshake</subtopic>
+            </module>
+            <module>
+                <name>Мониторинг сети</name>
+                <description>SNMP и NetFlow.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Настройка SNMP-агента</subtopic>
+                <subtopic seconds="1800">Wireshark capture</subtopic>
+                <subtopic seconds="1800">NetFlow анализ</subtopic>
+                <subtopic seconds="1800">Syslog и ELK</subtopic>
+                <subtopic seconds="1800">Ping monitoring</subtopic>
+                <subtopic seconds="1800">Настройка NMS</subtopic>
+            </module>
+            <module>
+                <name>Итоговый проект</name>
+                <description>Проект корпоративной сети.</description>
+                <category>Advanced</category>
+                <subtopic seconds="3600">Проектирование IP-плана</subtopic>
+                <subtopic seconds="3600">Настройка VLAN</subtopic>
+                <subtopic seconds="3600">Firewall и VPN</subtopic>
+                <subtopic seconds="3600">Мониторинг и отчёты</subtopic>
+                <subtopic seconds="3600">Документирование</subtopic>
+                <subtopic seconds="3600">Тестирование отказоустойчивости</subtopic>
+            </module>
+        </program>
+        <employment>junior</employment>
+    </course>
+
+
+    <course id="15">
+        <title>UX/UI Designer</title>
+        <futured>true</futured>
+        <tagline>Востребованная профессия за 6 месяцев с нуля</tagline>
+        <duration>6 месяцев</duration>
+        <practicePercent>80</practicePercent>
+        <projectsCount>5</projectsCount>
+        <description>Проектирование интерфейсов от идеи до готового прототипа.</description>
+        <program>
+            <module>
+                <name>Основы UX</name>
+                <description>Пользовательские исследования и персоны.</description>
+                <category>Introductory</category>
+                <subtopic seconds="660">Интервью с пользователями</subtopic>
+                <subtopic seconds="660">Анализ конкурентов</subtopic>
+                <subtopic seconds="660">Создание персонажей</subtopic>
+                <subtopic seconds="660">User journey mapping</subtopic>
+                <subtopic seconds="660">Карты эмпатии</subtopic>
+                <subtopic seconds="660">Работа с инсайтами</subtopic>
+            </module>
+            <module>
+                <name>Wireframing</name>
+                <description>Low-fidelity прототипы.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Ручной скетчинг</subtopic>
+                <subtopic seconds="1800">Balsamiq basics</subtopic>
+                <subtopic seconds="1800">Figma wireframes</subtopic>
+                <subtopic seconds="1800">Customer flows</subtopic>
+                <subtopic seconds="1800">Feedback loops</subtopic>
+                <subtopic seconds="1800">Iteration process</subtopic>
+            </module>
+            <module>
+                <name>UI Design</name>
+                <description>Цвет, типографика, иконки.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Цветовые палитры</subtopic>
+                <subtopic seconds="1800">Типографические scale</subtopic>
+                <subtopic seconds="1800">Стили компонентов</subtopic>
+                <subtopic seconds="1800">Iconography</subtopic>
+                <subtopic seconds="1800">Design tokens</subtopic>
+                <subtopic seconds="1800">Accessibility цвета</subtopic>
+            </module>
+            <module>
+                <name>Interaction Design</name>
+                <description>Анимации и переходы.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Microinteractions</subtopic>
+                <subtopic seconds="1800">Principles of animation</subtopic>
+                <subtopic seconds="1800">Figma Smart Animate</subtopic>
+                <subtopic seconds="1800">Prototype hotspots</subtopic>
+                <subtopic seconds="1800">Timing and easing</subtopic>
+                <subtopic seconds="1800">User feedback</subtopic>
+            </module>
+            <module>
+                <name>Design Systems</name>
+                <description>Создание и поддержка библиотеки.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Компонентный подход</subtopic>
+                <subtopic seconds="1800">Tokenization</subtopic>
+                <subtopic seconds="1800">Versioning</subtopic>
+                <subtopic seconds="1800">Documentation</subtopic>
+                <subtopic seconds="1800">Integration with code</subtopic>
+                <subtopic seconds="1800">Governance</subtopic>
+            </module>
+            <module>
+                <name>Usability Testing</name>
+                <description>Методы и анализ результатов.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Remote vs in-person</subtopic>
+                <subtopic seconds="1800">Think-aloud protocol</subtopic>
+                <subtopic seconds="1800">Task scenarios</subtopic>
+                <subtopic seconds="1800">Affinity mapping</subtopic>
+                <subtopic seconds="1800">Reporting insights</subtopic>
+                <subtopic seconds="1800">Iterative improvements</subtopic>
+            </module>
+            <module>
+                <name>Итоговый проект</name>
+                <description>Полный UI/UX кейс для веб- или мобильного приложения.</description>
+                <category>Advanced</category>
+                <subtopic seconds="3600">Research report</subtopic>
+                <subtopic seconds="3600">Wireframes</subtopic>
+                <subtopic seconds="3600">High-fidelity mockups</subtopic>
+                <subtopic seconds="3600">Prototype and testing</subtopic>
+                <subtopic seconds="3600">Design handoff</subtopic>
+                <subtopic seconds="3600">Presentation to stakeholders</subtopic>
+            </module>
+        </program>
+        <employment>junior</employment>
+    </course>
+
+
+    <course id="16">
+        <title>QA Engineer</title>
+        <tagline>Востребованная профессия за 5 месяцев с нуля</tagline>
+        <duration>5 месяцев</duration>
+        <practicePercent>75</practicePercent>
+        <projectsCount>4</projectsCount>
+        <description>Тестирование ПО: ручное, автоматизированное, API.</description>
+        <program>
+            <module>
+                <name>Основы QA</name>
+                <description>Жизненный цикл ПО и виды тестирования.</description>
+                <category>Introductory</category>
+                <subtopic seconds="660">Functional vs Non-functional</subtopic>
+                <subtopic seconds="660">Black-box vs White-box</subtopic>
+                <subtopic seconds="660">Smoke and Sanity</subtopic>
+                <subtopic seconds="660">Regression testing</subtopic>
+                <subtopic seconds="660">Exploratory testing</subtopic>
+                <subtopic seconds="660">Test plan and strategy</subtopic>
+            </module>
+            <module>
+                <name>Test Design</name>
+                <description>Тест-кейсы и чек-листы.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Test case structure</subtopic>
+                <subtopic seconds="1800">Boundary value analysis</subtopic>
+                <subtopic seconds="1800">Equivalence partitioning</subtopic>
+                <subtopic seconds="1800">Decision tables</subtopic>
+                <subtopic seconds="1800">Use cases</subtopic>
+                <subtopic seconds="1800">Risks and priorities</subtopic>
+            </module>
+            <module>
+                <name>Manual Testing</name>
+                <description>Инструменты и баг-репорты.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">JIRA basics</subtopic>
+                <subtopic seconds="1800">TestRail</subtopic>
+                <subtopic seconds="1800">Bug lifecycle</subtopic>
+                <subtopic seconds="1800">Reproduce steps</subtopic>
+                <subtopic seconds="1800">Attach screenshots</subtopic>
+                <subtopic seconds="1800">Severity vs priority</subtopic>
+            </module>
+            <module>
+                <name>Automation Basics</name>
+                <description>Selenium и Playwright.</description>
+                <category>Introductory</category>
+                <subtopic seconds="660">WebDriver setup</subtopic>
+                <subtopic seconds="660">Locators strategies</subtopic>
+                <subtopic seconds="660">Waits and timeouts</subtopic>
+                <subtopic seconds="660">Page Object Model</subtopic>
+                <subtopic seconds="660">Parallel execution</subtopic>
+                <subtopic seconds="660">Reporting</subtopic>
+            </module>
+            <module>
+                <name>API Testing</name>
+                <description>Postman и REST Assured.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">GET, POST, PUT, DELETE</subtopic>
+                <subtopic seconds="1800">Collections и environments</subtopic>
+                <subtopic seconds="1800">Assertions</subtopic>
+                <subtopic seconds="1800">Java Client REST Assured</subtopic>
+                <subtopic seconds="1800">Schema validation</subtopic>
+                <subtopic seconds="1800">Mock server</subtopic>
+            </module>
+            <module>
+                <name>CI/CD для QA</name>
+                <description>Интеграция автотестов в пайплайн.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Jenkins pipeline</subtopic>
+                <subtopic seconds="1800">GitLab CI stages</subtopic>
+                <subtopic seconds="1800">Parallel tests</subtopic>
+                <subtopic seconds="1800">Fail fast strategy</subtopic>
+                <subtopic seconds="1800">Slack уведомления</subtopic>
+                <subtopic seconds="1800">Отчёты Allure</subtopic>
+            </module>
+            <module>
+                <name>Итоговый проект</name>
+                <description>Полный цикл тестирования веб-приложения.</description>
+                <category>Advanced</category>
+                <subtopic seconds="3600">Test plan document</subtopic>
+                <subtopic seconds="3600">Manual test execution</subtopic>
+                <subtopic seconds="3600">Automation suite</subtopic>
+                <subtopic seconds="3600">API &amp; UI tests</subtopic>
+                <subtopic seconds="3600">CI/CD integration</subtopic>
+                <subtopic seconds="3600">Test report presentation</subtopic>
+            </module>
+        </program>
+        <employment>senior</employment>
+    </course>
+
+
+    <course id="17">
+        <title>QA Automation Engineer</title>
+        <tagline>Востребованная профессия за 6 месяцев с нуля</tagline>
+        <duration>6 месяцев</duration>
+        <practicePercent>80</practicePercent>
+        <projectsCount>5</projectsCount>
+        <description>Автоматизация тестирования на Java и Python.</description>
+        <program>
+            <module>
+                <name>Выбор инструментов</name>
+                <description>Selenium, Playwright, JUnit, PyTest.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Установка и настройка</subtopic>
+                <subtopic seconds="1800">WebDriver vs browser context</subtopic>
+                <subtopic seconds="1800">IDE integration</subtopic>
+                <subtopic seconds="1800">Browser drivers</subtopic>
+                <subtopic seconds="1800">First test script</subtopic>
+                <subtopic seconds="1800">Report generation</subtopic>
+            </module>
+            <module>
+                <name>Page Object Model</name>
+                <description>Структура автотестов.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">BasePage и BaseTest</subtopic>
+                <subtopic seconds="1800">Encapsulation of locators</subtopic>
+                <subtopic seconds="1800">Работа с элементами</subtopic>
+                <subtopic seconds="1800">Reusable methods</subtopic>
+                <subtopic seconds="1800">Dynamic pages</subtopic>
+                <subtopic seconds="1800">Разделение слоёв</subtopic>
+            </module>
+            <module>
+                <name>API Automation</name>
+                <description>REST Assured и requests.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Request specification</subtopic>
+                <subtopic seconds="1800">Response validation</subtopic>
+                <subtopic seconds="1800">Data-driven tests</subtopic>
+                <subtopic seconds="1800">Authentication</subtopic>
+                <subtopic seconds="1800">Logging requests</subtopic>
+                <subtopic seconds="1800">Parallel execution</subtopic>
+            </module>
+            <module>
+                <name>CI/CD и контейнеризация</name>
+                <description>Jenkins, GitLab CI, Docker.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Docker без GUI</subtopic>
+                <subtopic seconds="1800">Build images</subtopic>
+                <subtopic seconds="1800">Test containers</subtopic>
+                <subtopic seconds="1800">Pipeline scripts</subtopic>
+                <subtopic seconds="1800">Fail fast</subtopic>
+                <subtopic seconds="1800">Slack уведомления</subtopic>
+            </module>
+            <module>
+                <name>Тестовые фреймворки</name>
+                <description>PyTest fixtures, JUnit extensions.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Fixtures and scopes</subtopic>
+                <subtopic seconds="1800">Parametrized tests</subtopic>
+                <subtopic seconds="1800">Custom markers</subtopic>
+                <subtopic seconds="1800">Assertions and matchers</subtopic>
+                <subtopic seconds="1800">Setup/teardown hooks</subtopic>
+                <subtopic seconds="1800">Allure reports</subtopic>
+            </module>
+            <module>
+                <name>Performance Testing</name>
+                <description>JMeter и k6.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Load scripts</subtopic>
+                <subtopic seconds="1800">Assertions</subtopic>
+                <subtopic seconds="1800">Thresholds</subtopic>
+                <subtopic seconds="1800">Distributed testing</subtopic>
+                <subtopic seconds="1800">Metrics visualization</subtopic>
+                <subtopic seconds="1800">Spike tests</subtopic>
+            </module>
+            <module>
+                <name>Итоговый фреймворк</name>
+                <description>Сборка полного автоматизированного проекта.</description>
+                <category>Advanced</category>
+                <subtopic seconds="3600">Architecture planning</subtopic>
+                <subtopic seconds="3600">Code standards</subtopic>
+                <subtopic seconds="3600">Integration with CI</subtopic>
+                <subtopic seconds="3600">Reporting and dashboards</subtopic>
+                <subtopic seconds="3600">Notifications</subtopic>
+                <subtopic seconds="3600">Support and maintenance</subtopic>
+            </module>
+        </program>
+        <employment>junior</employment>
+    </course>
+
+
+    <course id="18">
+        <title>Project Manager в IT</title>
+        <futured>true</futured>
+        <tagline>Востребованная профессия за 5 месяцев с нуля</tagline>
+        <duration>5 месяцев</duration>
+        <practicePercent>60</practicePercent>
+        <projectsCount>3</projectsCount>
+        <description>Управление IT-проектами: Agile, Waterfall, Scrum.</description>
+        <program>
+            <module>
+                <name>Основы PM</name>
+                <description>Жизненный цикл и методологии.</description>
+                <category>Introductory</category>
+                <subtopic seconds="660">Waterfall vs Agile</subtopic>
+                <subtopic seconds="660">Project charter</subtopic>
+                <subtopic seconds="660">Область и scope creep</subtopic>
+                <subtopic seconds="660">Triple constraint</subtopic>
+                <subtopic seconds="660">Stakeholder analysis</subtopic>
+                <subtopic seconds="660">Project baseline</subtopic>
+            </module>
+            <module>
+                <name>Scrum и Agile</name>
+                <description>Роли, артефакты, церемонии.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Product Owner</subtopic>
+                <subtopic seconds="1800">Scrum Master</subtopic>
+                <subtopic seconds="1800">Sprint Planning</subtopic>
+                <subtopic seconds="1800">Daily Stand-up</subtopic>
+                <subtopic seconds="1800">Review &amp; Retrospective</subtopic>
+                <subtopic seconds="1800">Backlog grooming</subtopic>
+            </module>
+            <module>
+                <name>Управление рисками</name>
+                <description>Идентификация и анализ.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Risk register</subtopic>
+                <subtopic seconds="1800">Qualitative vs quantitative</subtopic>
+                <subtopic seconds="1800">Risk response strategies</subtopic>
+                <subtopic seconds="1800">Contingency planning</subtopic>
+                <subtopic seconds="1800">Issue tracking</subtopic>
+                <subtopic seconds="1800">Monitoring risks</subtopic>
+            </module>
+            <module>
+                <name>Коммуникации</name>
+                <description>План и инструменты.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Communication plan</subtopic>
+                <subtopic seconds="1800">Stakeholder engagement</subtopic>
+                <subtopic seconds="1800">Status reports</subtopic>
+                <subtopic seconds="1800">Meetings facilitation</subtopic>
+                <subtopic seconds="1800">Conflict resolution</subtopic>
+                <subtopic seconds="1800">Negotiation skills</subtopic>
+            </module>
+            <module>
+                <name>Управление качеством</name>
+                <description>QA vs QC, стандарты.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Quality plan</subtopic>
+                <subtopic seconds="1800">Continuous improvement</subtopic>
+                <subtopic seconds="1800">Defect management</subtopic>
+                <subtopic seconds="1800">Process audits</subtopic>
+                <subtopic seconds="1800">Checklists</subtopic>
+                <subtopic seconds="1800">Metrics and KPIs</subtopic>
+            </module>
+            <module>
+                <name>Бюджет и ресурсы</name>
+                <description>Оценка и контроль затрат.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Cost estimation</subtopic>
+                <subtopic seconds="1800">Earned Value Management</subtopic>
+                <subtopic seconds="1800">Resource leveling</subtopic>
+                <subtopic seconds="1800">Float and critical path</subtopic>
+                <subtopic seconds="1800">Procurement planning</subtopic>
+                <subtopic seconds="1800">Vendor management</subtopic>
+            </module>
+            <module>
+                <name>Итоговый проект</name>
+                <description>Управление реальным IT-проектом от начала до сдачи.</description>
+                <category>Advanced</category>
+                <subtopic seconds="3600">Project initiation</subtopic>
+                <subtopic seconds="3600">Planning workshop</subtopic>
+                <subtopic seconds="3600">Execution и monitoring</subtopic>
+                <subtopic seconds="3600">Closing report</subtopic>
+                <subtopic seconds="3600">Lessons learned</subtopic>
+                <subtopic seconds="3600">Stakeholder presentation</subtopic>
+            </module>
+        </program>
+        <employment>junior</employment>
+    </course>
+
+
+    <course id="19">
+        <title>Scrum Master</title>
+        <futured>true</futured>
+        <tagline>Востребованная профессия за 4 месяца с нуля</tagline>
+        <duration>4 месяца</duration>
+        <practicePercent>65</practicePercent>
+        <projectsCount>3</projectsCount>
+        <description>Углублённый курс по роли Scrum Master.</description>
+        <program>
+            <module>
+                <name>Scrum Guide Deep Dive</name>
+                <description>Роли и ценности Scrum.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Accountability</subtopic>
+                <subtopic seconds="1800">Transparency</subtopic>
+                <subtopic seconds="1800">Inspection and Adaptation</subtopic>
+                <subtopic seconds="1800">Scrum values</subtopic>
+                <subtopic seconds="1800">Definition of Done</subtopic>
+                <subtopic seconds="1800">Backlog items</subtopic>
+            </module>
+            <module>
+                <name>Facilitation Techniques</name>
+                <description>Проведение встреч и workshops.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Timeboxing</subtopic>
+                <subtopic seconds="1800">Liberating structures</subtopic>
+                <subtopic seconds="1800">Retrospective formats</subtopic>
+                <subtopic seconds="1800">Conflict management</subtopic>
+                <subtopic seconds="1800">Active listening</subtopic>
+                <subtopic seconds="1800">Visual facilitation</subtopic>
+            </module>
+            <module>
+                <name>Metrics and Reporting</name>
+                <description>Burndown, velocity, lead time.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Velocity calculation</subtopic>
+                <subtopic seconds="1800">Burnup vs Burndown</subtopic>
+                <subtopic seconds="1800">Cycle time</subtopic>
+                <subtopic seconds="1800">Cumulative Flow Diagram</subtopic>
+                <subtopic seconds="1800">Dashboards</subtopic>
+                <subtopic seconds="1800">Continuous improvement</subtopic>
+            </module>
+            <module>
+                <name>Scaling Scrum</name>
+                <description>SAFe, LeSS, Nexus.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">SAFe roles</subtopic>
+                <subtopic seconds="1800">Program Increment</subtopic>
+                <subtopic seconds="1800">LeSS principles</subtopic>
+                <subtopic seconds="1800">Nexus integration</subtopic>
+                <subtopic seconds="1800">Large Product Owner</subtopic>
+                <subtopic seconds="1800">Release trains</subtopic>
+            </module>
+            <module>
+                <name>Coaching and Mentoring</name>
+                <description>Поддержка команд и стейкхолдеров.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">GROW model</subtopic>
+                <subtopic seconds="1800">Coaching stance</subtopic>
+                <subtopic seconds="1800">Feedback techniques</subtopic>
+                <subtopic seconds="1800">Mentoring vs coaching</subtopic>
+                <subtopic seconds="1800">Servant leadership</subtopic>
+                <subtopic seconds="1800">Emotional intelligence</subtopic>
+            </module>
+            <module>
+                <name>Имплементация изменений</name>
+                <description>Управление сопротивлением.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Change management</subtopic>
+                <subtopic seconds="1800">ADKAR модель</subtopic>
+                <subtopic seconds="1800">Stakeholder alignment</subtopic>
+                <subtopic seconds="1800">Communication plan</subtopic>
+                <subtopic seconds="1800">Measuring adoption</subtopic>
+                <subtopic seconds="1800">Continuous feedback</subtopic>
+            </module>
+            <module>
+                <name>Итоговый кейс</name>
+                <description>Организация и оптимизация Scrum-команды.</description>
+                <category>Advanced</category>
+                <subtopic seconds="3600">Assessment current state</subtopic>
+                <subtopic seconds="3600">Roadmap изменений</subtopic>
+                <subtopic seconds="3600">Workshop facilitation</subtopic>
+                <subtopic seconds="3600">Metrics dashboard</subtopic>
+                <subtopic seconds="3600">Retrospective action plan</subtopic>
+                <subtopic seconds="3600">Stakeholder report</subtopic>
+            </module>
+        </program>
+        <employment>junior</employment>
+    </course>
+
+
+    <course id="20">
+        <title>Game Developer (Unity)</title>
+        <tagline>Востребованная профессия за 7 месяцев с нуля</tagline>
+        <duration>7 месяцев</duration>
+        <practicePercent>75</practicePercent>
+        <projectsCount>5</projectsCount>
+        <description>Разработка игр на Unity: от 2D до 3D.</description>
+        <program>
+            <module>
+                <name>Основы Unity</name>
+                <description>Интерфейс и GameObjects.</description>
+                <category>Introductory</category>
+                <subtopic seconds="660">Scene и GameObject</subtopic>
+                <subtopic seconds="660">Компоненты и трансформации</subtopic>
+                <subtopic seconds="660">Prefabs</subtopic>
+                <subtopic seconds="660">Скрипты на C#</subtopic>
+                <subtopic seconds="660">Asset Store overview</subtopic>
+                <subtopic seconds="660">Build settings</subtopic>
+            </module>
+            <module>
+                <name>C# для Unity</name>
+                <description>Скрипты и ввод пользователя.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Monobehaviour lifecycle</subtopic>
+                <subtopic seconds="1800">Update vs FixedUpdate</subtopic>
+                <subtopic seconds="1800">Events и Delegates</subtopic>
+                <subtopic seconds="1800">Input систем</subtopic>
+                <subtopic seconds="1800">Physics.Raycast</subtopic>
+                <subtopic seconds="1800">Coroutines</subtopic>
+            </module>
+            <module>
+                <name>2D механика</name>
+                <description>Спрайты и столкновения.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Tilemap</subtopic>
+                <subtopic seconds="1800">RigidBody2D</subtopic>
+                <subtopic seconds="1800">Collider2D types</subtopic>
+                <subtopic seconds="1800">Animator 2D</subtopic>
+                <subtopic seconds="1800">Parallax backgrounds</subtopic>
+                <subtopic seconds="1800">Particle System</subtopic>
+            </module>
+            <module>
+                <name>3D механика</name>
+                <description>Модель, освещение, физика.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Mesh и материал</subtopic>
+                <subtopic seconds="1800">Lighting modes</subtopic>
+                <subtopic seconds="1800">NavMesh и AI</subtopic>
+                <subtopic seconds="1800">Rigidbody</subtopic>
+                <subtopic seconds="1800">Physic Materials</subtopic>
+                <subtopic seconds="1800">Occlusion culling</subtopic>
+            </module>
+            <module>
+                <name>UI и анимации</name>
+                <description>Canvas и анимационные кривые.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Canvas render modes</subtopic>
+                <subtopic seconds="1800">UI components</subtopic>
+                <subtopic seconds="1800">Animation Controller</subtopic>
+                <subtopic seconds="1800">Timeline basics</subtopic>
+                <subtopic seconds="1800">DOTween integration</subtopic>
+                <subtopic seconds="1800">Particle effects</subtopic>
+            </module>
+            <module>
+                <name>Оптимизация и сборка</name>
+                <description>Profiler и платформы.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Profiler basics</subtopic>
+                <subtopic seconds="1800">Batching and Draw calls</subtopic>
+                <subtopic seconds="1800">Quality settings</subtopic>
+                <subtopic seconds="1800">Build for PC/Mobile</subtopic>
+                <subtopic seconds="1800">IL2CPP vs Mono</subtopic>
+                <subtopic seconds="1800">Asset bundling</subtopic>
+            </module>
+            <module>
+                <name>Итоговый проект</name>
+                <description>Создание своей мини-игры.</description>
+                <category>Advanced</category>
+                <subtopic seconds="3600">Game design document</subtopic>
+                <subtopic seconds="3600">Prototyping</subtopic>
+                <subtopic seconds="3600">Art integration</subtopic>
+                <subtopic seconds="3600">Sound and music</subtopic>
+                <subtopic seconds="3600">UI/UX polish</subtopic>
+                <subtopic seconds="3600">Release on itch.io</subtopic>
+            </module>
+        </program>
+        <employment>junior</employment>
+    </course>
+
+
+    <course id="21">
+        <title>Blockchain Developer</title>
+        <tagline>Востребованная профессия за 6 месяцев с нуля</tagline>
+        <duration>6 месяцев</duration>
+        <practicePercent>60</practicePercent>
+        <projectsCount>4</projectsCount>
+        <description>Разработка DApp на Ethereum и Solidity.</description>
+        <program>
+            <module>
+                <name>Введение в блокчейн</name>
+                <description>Концепции и архитектура.</description>
+                <category>Introductory</category>
+                <subtopic seconds="660">What is blockchain?</subtopic>
+                <subtopic seconds="660">Пиринговые сети</subtopic>
+                <subtopic seconds="660">Консенсус Proof-of-Work</subtopic>
+                <subtopic seconds="660">Proof-of-Stake basics</subtopic>
+                <subtopic seconds="660">Smart contracts overview</subtopic>
+                <subtopic seconds="660">Ethereum vs Bitcoin</subtopic>
+            </module>
+            <module>
+                <name>Solidity fundamentals</name>
+                <description>Синтаксис и контракты.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Типы данных</subtopic>
+                <subtopic seconds="1800">Events и modifiers</subtopic>
+                <subtopic seconds="1800">Inheritance</subtopic>
+                <subtopic seconds="1800">Libraries</subtopic>
+                <subtopic seconds="1800">Memory vs storage</subtopic>
+                <subtopic seconds="1800">Error handling</subtopic>
+            </module>
+            <module>
+                <name>Development tools</name>
+                <description>Remix, Truffle, Hardhat.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Remix IDE</subtopic>
+                <subtopic seconds="1800">Truffle migrations</subtopic>
+                <subtopic seconds="1800">Hardhat tasks</subtopic>
+                <subtopic seconds="1800">Ganache local chain</subtopic>
+                <subtopic seconds="1800">OpenZeppelin contracts</subtopic>
+                <subtopic seconds="1800">Code coverage</subtopic>
+            </module>
+            <module>
+                <name>Web3.js &amp; Ethers.js</name>
+                <description>Взаимодействие с DApp.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Provider and signer</subtopic>
+                <subtopic seconds="1800">Contract methods call</subtopic>
+                <subtopic seconds="1800">Event listening</subtopic>
+                <subtopic seconds="1800">MetaMask integration</subtopic>
+                <subtopic seconds="1800">Network switching</subtopic>
+                <subtopic seconds="1800">Error handling</subtopic>
+            </module>
+            <module>
+                <name>Security best practices</name>
+                <description>Аудит и выявление уязвимостей.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Reentrancy attack</subtopic>
+                <subtopic seconds="1800">Integer overflow</subtopic>
+                <subtopic seconds="1800">Access control</subtopic>
+                <subtopic seconds="1800">Upgradability</subtopic>
+                <subtopic seconds="1800">SafeMath</subtopic>
+                <subtopic seconds="1800">Auditing tools</subtopic>
+            </module>
+            <module>
+                <name>Итоговый проект</name>
+                <description>DApp с токеном и DAO.</description>
+                <category>Advanced</category>
+                <subtopic seconds="3600">ERC-20 token</subtopic>
+                <subtopic seconds="3600">ERC-721 NFT</subtopic>
+                <subtopic seconds="3600">Governance contract</subtopic>
+                <subtopic seconds="3600">Frontend на React</subtopic>
+                <subtopic seconds="3600">Deployment to testnet</subtopic>
+                <subtopic seconds="3600">Verification on Etherscan</subtopic>
+            </module>
+        </program>
+        <employment>junior</employment>
+    </course>
+
+
+    <course id="22">
+        <title>IoT Developer</title>
+        <futured>true</futured>
+        <tagline>Востребованная профессия за 6 месяцев с нуля</tagline>
+        <duration>6 месяцев</duration>
+        <practicePercent>70</practicePercent>
+        <projectsCount>4</projectsCount>
+        <description>Проектирование и программирование IoT-устройств.</description>
+        <program>
+            <module>
+                <name>Введение в IoT</name>
+                <description>Архитектуры и протоколы.</description>
+                <category>Introductory</category>
+                <subtopic seconds="660">MQTT basics</subtopic>
+                <subtopic seconds="660">CoAP protocol</subtopic>
+                <subtopic seconds="660">REST vs MQTT</subtopic>
+                <subtopic seconds="660">Edge vs cloud</subtopic>
+                <subtopic seconds="660">Security in IoT</subtopic>
+                <subtopic seconds="660">Use cases</subtopic>
+            </module>
+            <module>
+                <name>Аппаратная часть</name>
+                <description>ESP32 и Raspberry Pi.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">GPIO управление</subtopic>
+                <subtopic seconds="1800">ADC и DAC</subtopic>
+                <subtopic seconds="1800">Интерфейсы I2C/SPI</subtopic>
+                <subtopic seconds="1800">Работа с датчиками</subtopic>
+                <subtopic seconds="1800">Power management</subtopic>
+                <subtopic seconds="1800">OTA updates</subtopic>
+            </module>
+            <module>
+                <name>Связь</name>
+                <description>BLE, LoRaWAN, NB-IoT.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Bluetooth pairing</subtopic>
+                <subtopic seconds="1800">GATT server/client</subtopic>
+                <subtopic seconds="1800">LoRaWAN gateways</subtopic>
+                <subtopic seconds="1800">NB-IoT basics</subtopic>
+                <subtopic seconds="1800">Network coverage</subtopic>
+                <subtopic seconds="1800">MQTT over TLS</subtopic>
+            </module>
+            <module>
+                <name>Backend для телеметрии</name>
+                <description>Node.js и Python серверы.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">MQTT broker setup</subtopic>
+                <subtopic seconds="1800">Data ingestion</subtopic>
+                <subtopic seconds="1800">Time-series database</subtopic>
+                <subtopic seconds="1800">REST API for devices</subtopic>
+                <subtopic seconds="1800">Data visualization</subtopic>
+                <subtopic seconds="1800">Alerting rules</subtopic>
+            </module>
+            <module>
+                <name>Cloud интеграция</name>
+                <description>AWS IoT Core, Azure IoT Hub.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Device provisioning</subtopic>
+                <subtopic seconds="1800">Rules engine</subtopic>
+                <subtopic seconds="1800">Storage integration</subtopic>
+                <subtopic seconds="1800">Stream processing</subtopic>
+                <subtopic seconds="1800">Serverless functions</subtopic>
+                <subtopic seconds="1800">Dashboarding</subtopic>
+            </module>
+            <module>
+                <name>Итоговый проект</name>
+                <description>Умное устройство с веб-панелью мониторинга.</description>
+                <category>Advanced</category>
+                <subtopic seconds="3600">Hardware design</subtopic>
+                <subtopic seconds="3600">Firmware development</subtopic>
+                <subtopic seconds="3600">Backend API</subtopic>
+                <subtopic seconds="3600">Frontend dashboard</subtopic>
+                <subtopic seconds="3600">Deployment</subtopic>
+                <subtopic seconds="3600">User documentation</subtopic>
+            </module>
+        </program>
+        <employment>junior</employment>
+    </course>
+
+
+    <course id="23">
+        <title>Embedded Systems Developer</title>
+        <tagline>Востребованная профессия за 7 месяцев с нуля</tagline>
+        <duration>7 месяцев</duration>
+        <practicePercent>65</practicePercent>
+        <projectsCount>4</projectsCount>
+        <description>Разработка встроенных систем на C/C++ и RTOS.</description>
+        <program>
+            <module>
+                <name>Архитектура микроконтроллеров</name>
+                <description>STM32, AVR, PIC.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">CPU core differences</subtopic>
+                <subtopic seconds="1800">Register map</subtopic>
+                <subtopic seconds="1800">Memory types</subtopic>
+                <subtopic seconds="1800">Peripherals overview</subtopic>
+                <subtopic seconds="1800">Clock configuration</subtopic>
+                <subtopic seconds="1800">Interrupts basics</subtopic>
+            </module>
+            <module>
+                <name>C/C++ для Embedded</name>
+                <description>Управление памятью и оптимизация.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Pointers and addresses</subtopic>
+                <subtopic seconds="1800">Volatile keyword</subtopic>
+                <subtopic seconds="1800">Bitwise operations</subtopic>
+                <subtopic seconds="1800">Memory allocation</subtopic>
+                <subtopic seconds="1800">Inline functions</subtopic>
+                <subtopic seconds="1800">Linker scripts</subtopic>
+            </module>
+            <module>
+                <name>RTOS (FreeRTOS)</name>
+                <description>Задачи и синхронизация.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Task creation</subtopic>
+                <subtopic seconds="1800">Queues and semaphores</subtopic>
+                <subtopic seconds="1800">Mutex and priority inheritance</subtopic>
+                <subtopic seconds="1800">Tick hook and idle hook</subtopic>
+                <subtopic seconds="1800">Memory schemes</subtopic>
+                <subtopic seconds="1800">Software timers</subtopic>
+            </module>
+            <module>
+                <name>Шины и интерфейсы</name>
+                <description>I2C, SPI, UART, CAN.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">I2C master/slave</subtopic>
+                <subtopic seconds="1800">SPI modes</subtopic>
+                <subtopic seconds="1800">UART configuration</subtopic>
+                <subtopic seconds="1800">DMA transfer</subtopic>
+                <subtopic seconds="1800">CAN bus specifics</subtopic>
+                <subtopic seconds="1800">Protocol analyzers</subtopic>
+            </module>
+            <module>
+                <name>Отладка и тестирование</name>
+                <description>JTAG, SWD, logic analyzer.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">GDB debugging</subtopic>
+                <subtopic seconds="1800">Breakpoints and watchpoints</subtopic>
+                <subtopic seconds="1800">Logic analyzer basics</subtopic>
+                <subtopic seconds="1800">Unit testing on host</subtopic>
+                <subtopic seconds="1800">Hardware-in-the-loop</subtopic>
+                <subtopic seconds="1800">Code coverage</subtopic>
+            </module>
+            <module>
+                <name>Итоговый проект</name>
+                <description>Встроенная система реального времени.</description>
+                <category>Advanced</category>
+                <subtopic seconds="3600">Hardware schematic</subtopic>
+                <subtopic seconds="3600">PCB layout basics</subtopic>
+                <subtopic seconds="3600">Firmware architecture</subtopic>
+                <subtopic seconds="3600">RTOS integration</subtopic>
+                <subtopic seconds="3600">Communication protocol</subtopic>
+                <subtopic seconds="3600">Field testing</subtopic>
+            </module>
+        </program>
+        <employment>junior</employment>
+    </course>
+
+
+    <course id="24">
+        <title>Site Reliability Engineer</title>
+        <futured>true</futured>
+        <tagline>Востребованная профессия за 6 месяцев с нуля</tagline>
+        <duration>6 месяцев</duration>
+        <practicePercent>70</practicePercent>
+        <projectsCount>4</projectsCount>
+        <description>Надёжность и масштабирование сервисов в продакшн.</description>
+        <program>
+            <module>
+                <name>Введение в SRE</name>
+                <description>SLO, SLI, SLA.</description>
+                <category>Introductory</category>
+                <subtopic seconds="660">Определение SLI</subtopic>
+                <subtopic seconds="660">SLO и error budget</subtopic>
+                <subtopic seconds="660">Мониторинг и алерты</subtopic>
+                <subtopic seconds="660">Incident response</subtopic>
+                <subtopic seconds="660">Post-mortem</subtopic>
+                <subtopic seconds="660">Проактивная работа</subtopic>
+            </module>
+            <module>
+                <name>Инфраструктура как код</name>
+                <description>Terraform и Ansible.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">State management</subtopic>
+                <subtopic seconds="1800">Workspace и modules</subtopic>
+                <subtopic seconds="1800">Ansible playbooks</subtopic>
+                <subtopic seconds="1800">Idempotence</subtopic>
+                <subtopic seconds="1800">Vault integration</subtopic>
+                <subtopic seconds="1800">CI integration</subtopic>
+            </module>
+            <module>
+                <name>Observability</name>
+                <description>Prometheus, Grafana.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">PromQL basics</subtopic>
+                <subtopic seconds="1800">Alertmanager</subtopic>
+                <subtopic seconds="1800">Tracing with Jaeger</subtopic>
+                <subtopic seconds="1800">Logs collection (ELK)</subtopic>
+                <subtopic seconds="1800">Dashboards design</subtopic>
+                <subtopic seconds="1800">Service level monitoring</subtopic>
+            </module>
+            <module>
+                <name>CI/CD и деплой</name>
+                <description>Jenkins, GitLab CI.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Blue/Green deploy</subtopic>
+                <subtopic seconds="1800">Canary releases</subtopic>
+                <subtopic seconds="1800">Rollback strategies</subtopic>
+                <subtopic seconds="1800">Immutable infrastructure</subtopic>
+                <subtopic seconds="1800">Feature toggles</subtopic>
+                <subtopic seconds="1800">Pipeline security</subtopic>
+            </module>
+            <module>
+                <name>Инцидент-менеджмент</name>
+                <description>Runbooks и playbooks.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Incident commander role</subtopic>
+                <subtopic seconds="1800">Communication plan</subtopic>
+                <subtopic seconds="1800">Severity levels</subtopic>
+                <subtopic seconds="1800">Post-mortem report</subtopic>
+                <subtopic seconds="1800">Root cause analysis</subtopic>
+                <subtopic seconds="1800">Continuous learning</subtopic>
+            </module>
+            <module>
+                <name>Итоговый проект</name>
+                <description>Оркестрация, мониторинг и реагирование.</description>
+                <category>Advanced</category>
+                <subtopic seconds="3600">End-to-end pipeline</subtopic>
+                <subtopic seconds="3600">Infrastructure provisioning</subtopic>
+                <subtopic seconds="3600">Observability stack</subtopic>
+                <subtopic seconds="3600">Alert workflow</subtopic>
+                <subtopic seconds="3600">Incident simulation</subtopic>
+                <subtopic seconds="3600">Post-project review</subtopic>
+            </module>
+        </program>
+        <employment>junior</employment>
+    </course>
+
+
+    <course id="25">
+        <title>Digital-маркетолог</title>
+        <tagline>Востребованная профессия за 4 месяца с нуля</tagline>
+        <duration>4 месяца</duration>
+        <practicePercent>60</practicePercent>
+        <projectsCount>3</projectsCount>
+        <description>SEO, контекстная реклама, SMM и аналитика.</description>
+        <program>
+            <module>
+                <name>Основы digital</name>
+                <description>Маркетинг в интернете сегодня.</description>
+                <category>Introductory</category>
+                <subtopic seconds="660">Digital vs классический</subtopic>
+                <subtopic seconds="660">Funnel stages</subtopic>
+                <subtopic seconds="660">Buyer personas</subtopic>
+                <subtopic seconds="660">Customer journey</subtopic>
+                <subtopic seconds="660">Competitor analysis</subtopic>
+                <subtopic seconds="660">Marketing channels overview</subtopic>
+            </module>
+            <module>
+                <name>SEO</name>
+                <description>On-page и Off-page оптимизация.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Keyword research</subtopic>
+                <subtopic seconds="1800">Meta tags</subtopic>
+                <subtopic seconds="1800">Site structure</subtopic>
+                <subtopic seconds="1800">Backlink building</subtopic>
+                <subtopic seconds="1800">Technical SEO</subtopic>
+                <subtopic seconds="1800">Google Search Console</subtopic>
+            </module>
+            <module>
+                <name>Контекстная реклама</name>
+                <description>Google Ads и Яндекс.Директ.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Кампании Search vs Display</subtopic>
+                <subtopic seconds="1800">Quality Score</subtopic>
+                <subtopic seconds="1800">Keyword match types</subtopic>
+                <subtopic seconds="1800">Ad extensions</subtopic>
+                <subtopic seconds="1800">Bid strategies</subtopic>
+                <subtopic seconds="1800">Remarketing</subtopic>
+            </module>
+            <module>
+                <name>SMM</name>
+                <description>Платформы и контент-стратегии.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Facebook &amp; Instagram Ads</subtopic>
+                <subtopic seconds="1800">Target audience</subtopic>
+                <subtopic seconds="1800">Content calendar</subtopic>
+                <subtopic seconds="1800">Engagement metrics</subtopic>
+                <subtopic seconds="1800">Influencer marketing</subtopic>
+                <subtopic seconds="1800">Community management</subtopic>
+            </module>
+            <module>
+                <name>Аналитика</name>
+                <description>Google Analytics и метрики.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Setup GA4</subtopic>
+                <subtopic seconds="1800">Events и Goals</subtopic>
+                <subtopic seconds="1800">UTM tags</subtopic>
+                <subtopic seconds="1800">Funnel reports</subtopic>
+                <subtopic seconds="1800">Dashboards</subtopic>
+                <subtopic seconds="1800">Data Studio</subtopic>
+            </module>
+            <module>
+                <name>Итоговый проект</name>
+                <description>Полноценная digital-кампания с нуля.</description>
+                <category>Advanced</category>
+                <subtopic seconds="3600">Strategy document</subtopic>
+                <subtopic seconds="3600">Campaign setup</subtopic>
+                <subtopic seconds="3600">Budget planning</subtopic>
+                <subtopic seconds="3600">Launch and monitoring</subtopic>
+                <subtopic seconds="3600">Optimization</subtopic>
+                <subtopic seconds="3600">Final report</subtopic>
+            </module>
+        </program>
+        <employment>junior</employment>
+    </course>
+
+
+    <course id="26">
+        <title>Big Data Engineer</title>
+        <tagline>Востребованная профессия за 8 месяцев с нуля</tagline>
+        <duration>8 месяцев</duration>
+        <practicePercent>70</practicePercent>
+        <projectsCount>5</projectsCount>
+        <description>Hadoop, Spark, Kafka и обработка больших объёмов.</description>
+        <program>
+            <module>
+                <name>Введение в Big Data</name>
+                <description>Архитектуры и экосистема.</description>
+                <category>Introductory</category>
+                <subtopic seconds="660">Hadoop HDFS</subtopic>
+                <subtopic seconds="660">MapReduce basics</subtopic>
+                <subtopic seconds="660">Ecosystem overview</subtopic>
+                <subtopic seconds="660">Lambda vs Kappa</subtopic>
+                <subtopic seconds="660">Structured vs unstructured</subtopic>
+                <subtopic seconds="660">Use cases</subtopic>
+            </module>
+            <module>
+                <name>Spark Core</name>
+                <description>RDD и DataFrame API.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Create RDD</subtopic>
+                <subtopic seconds="1800">Transformations</subtopic>
+                <subtopic seconds="1800">Actions</subtopic>
+                <subtopic seconds="1800">DataFrame basics</subtopic>
+                <subtopic seconds="1800">Dataset vs DataFrame</subtopic>
+                <subtopic seconds="1800">Partitioning</subtopic>
+            </module>
+            <module>
+                <name>Spark SQL &amp; Streaming</name>
+                <description>Обработка потоков.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Spark SQL queries</subtopic>
+                <subtopic seconds="1800">Catalog и metadata</subtopic>
+                <subtopic seconds="1800">Structured Streaming</subtopic>
+                <subtopic seconds="1800">Watermarks</subtopic>
+                <subtopic seconds="1800">Stateful operations</subtopic>
+                <subtopic seconds="1800">Checkpointing</subtopic>
+            </module>
+            <module>
+                <name>Kafka основы</name>
+                <description>Продюсеры, консьюмеры, topic design.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Broker setup</subtopic>
+                <subtopic seconds="1800">Partitions and replication</subtopic>
+                <subtopic seconds="1800">Producer API</subtopic>
+                <subtopic seconds="1800">Consumer groups</subtopic>
+                <subtopic seconds="1800">Stream processing with Kafka Streams</subtopic>
+                <subtopic seconds="1800">Connect API</subtopic>
+            </module>
+            <module>
+                <name>Хранилища и OLAP</name>
+                <description>HBase, Hive, Presto.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">HiveQL basics</subtopic>
+                <subtopic seconds="1800">Partitioned tables</subtopic>
+                <subtopic seconds="1800">HBase data model</subtopic>
+                <subtopic seconds="1800">Presto queries</subtopic>
+                <subtopic seconds="1800">Schema design</subtopic>
+                <subtopic seconds="1800">Data lake vs warehouse</subtopic>
+            </module>
+            <module>
+                <name>Итоговый проект</name>
+                <description>Data pipeline на Spark и Kafka.</description>
+                <category>Advanced</category>
+                <subtopic seconds="3600">Ingest data</subtopic>
+                <subtopic seconds="3600">Process streams</subtopic>
+                <subtopic seconds="3600">Store results в HDFS</subtopic>
+                <subtopic seconds="3600">Query через Hive</subtopic>
+                <subtopic seconds="3600">Dashboarding</subtopic>
+                <subtopic seconds="3600">Performance tuning</subtopic>
+            </module>
+        </program>
+        <employment>senior</employment>
+    </course>
+
+
+    <course id="27">
+        <title>Scala/Java Engineer</title>
+        <tagline>Востребованная профессия за 9 месяцев с нуля</tagline>
+        <duration>9 месяцев</duration>
+        <practicePercent>70</practicePercent>
+        <projectsCount>5</projectsCount>
+        <description>Функциональное программирование на Scala и JVM.</description>
+        <program>
+            <module>
+                <name>Scala Basics</name>
+                <description>Синтаксис и основные конструкции.</description>
+                <category>Introductory</category>
+                <subtopic seconds="660">Val vs var</subtopic>
+                <subtopic seconds="660">Pattern matching</subtopic>
+                <subtopic seconds="660">Case classes</subtopic>
+                <subtopic seconds="660">Collections API</subtopic>
+                <subtopic seconds="660">Higher-order functions</subtopic>
+                <subtopic seconds="660">Tail recursion</subtopic>
+            </module>
+            <module>
+                <name>Functional Programming</name>
+                <description>Монады, функторы, эффекты.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Option и Either</subtopic>
+                <subtopic seconds="1800">For-comprehension</subtopic>
+                <subtopic seconds="1800">IO monad (Cats Effect)</subtopic>
+                <subtopic seconds="1800">Validation</subtopic>
+                <subtopic seconds="1800">Typeclasses</subtopic>
+                <subtopic seconds="1800">Pure functions</subtopic>
+            </module>
+            <module>
+                <name>Akka Actors</name>
+                <description>Модель акторов и concurrency.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">ActorSystem setup</subtopic>
+                <subtopic seconds="1800">Props and actors</subtopic>
+                <subtopic seconds="1800">Message passing</subtopic>
+                <subtopic seconds="1800">Supervision strategy</subtopic>
+                <subtopic seconds="1800">Cluster basics</subtopic>
+                <subtopic seconds="1800">Persistence</subtopic>
+            </module>
+            <module>
+                <name>Akka Streams</name>
+                <description>Потоковая обработка данных.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Source, Flow, Sink</subtopic>
+                <subtopic seconds="1800">Backpressure</subtopic>
+                <subtopic seconds="1800">GraphDSL</subtopic>
+                <subtopic seconds="1800">Alpakka connectors</subtopic>
+                <subtopic seconds="1800">TestKit for streams</subtopic>
+                <subtopic seconds="1800">Stream metrics</subtopic>
+            </module>
+            <module>
+                <name>Integrating with Java</name>
+                <description>Interop и best practices.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Calling Java code</subtopic>
+                <subtopic seconds="1800">Using Java libraries</subtopic>
+                <subtopic seconds="1800">JavaConverters</subtopic>
+                <subtopic seconds="1800">Mixed build with SBT</subtopic>
+                <subtopic seconds="1800">Java interoperability</subtopic>
+                <subtopic seconds="1800">Performance considerations</subtopic>
+            </module>
+            <module>
+                <name>Итоговый проект</name>
+                <description>Реактивное приложение на Akka и Scala.</description>
+                <category>Advanced</category>
+                <subtopic seconds="3600">Requirements analysis</subtopic>
+                <subtopic seconds="3600">Architecture design</subtopic>
+                <subtopic seconds="3600">Implementation of actors</subtopic>
+                <subtopic seconds="3600">Testing streams</subtopic>
+                <subtopic seconds="3600">Deployment via Docker</subtopic>
+                <subtopic seconds="3600">Monitoring</subtopic>
+            </module>
+        </program>
+        <employment>junior</employment>
+    </course>
+
+
+    <course id="28">
+        <title>Rust Developer</title>
+        <tagline>Востребованная профессия за 7 месяцев с нуля</tagline>
+        <duration>7 месяцев</duration>
+        <practicePercent>65</practicePercent>
+        <projectsCount>4</projectsCount>
+        <description>Системное программирование на Rust без GC.</description>
+        <program>
+            <module>
+                <name>Введение в Rust</name>
+                <description>Установка и Cargo.</description>
+                <category>Introductory</category>
+                <subtopic seconds="660">Cargo new и Cargo.toml</subtopic>
+                <subtopic seconds="660">rustup toolchain</subtopic>
+                <subtopic seconds="660">rustfmt и clippy</subtopic>
+                <subtopic seconds="660">Basic types</subtopic>
+                <subtopic seconds="660">Ownership rules</subtopic>
+                <subtopic seconds="660">Borrow checker</subtopic>
+            </module>
+            <module>
+                <name>Control Flow</name>
+                <description>if, loop, while, for.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Match expressions</subtopic>
+                <subtopic seconds="1800">Pattern matching</subtopic>
+                <subtopic seconds="1800">Enums and Option</subtopic>
+                <subtopic seconds="1800">Result и error handling</subtopic>
+                <subtopic seconds="1800">Early returns</subtopic>
+                <subtopic seconds="1800">Conditional compilation</subtopic>
+            </module>
+            <module>
+                <name>Data Structures</name>
+                <description>Vectors, Strings, HashMap.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Vec&lt;T&gt; basics</subtopic>
+                <subtopic seconds="1800">String vs &amp;str</subtopic>
+                <subtopic seconds="1800">HashMap usage</subtopic>
+                <subtopic seconds="1800">Custom structs</subtopic>
+                <subtopic seconds="1800">Traits and impl</subtopic>
+                <subtopic seconds="1800">Generics</subtopic>
+            </module>
+            <module>
+                <name>Concurrency</name>
+                <description>Threads, async/await.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">std::thread</subtopic>
+                <subtopic seconds="1800">Channels</subtopic>
+                <subtopic seconds="1800">async_fn basics</subtopic>
+                <subtopic seconds="1800">Futures and executors</subtopic>
+                <subtopic seconds="1800">Tokio runtime</subtopic>
+                <subtopic seconds="1800">Sync primitives</subtopic>
+            </module>
+            <module>
+                <name>FFI и unsafe</name>
+                <description>Связь с C и ненадёжный код.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Extern blocks</subtopic>
+                <subtopic seconds="1800">Unsafe functions</subtopic>
+                <subtopic seconds="1800">Raw pointers</subtopic>
+                <subtopic seconds="1800">FFI examples</subtopic>
+                <subtopic seconds="1800">ABIs</subtopic>
+                <subtopic seconds="1800">Safety contracts</subtopic>
+            </module>
+            <module>
+                <name>Итоговый проект</name>
+                <description>Системное приложение на Rust.</description>
+                <category>Advanced</category>
+                <subtopic seconds="3600">CLI using clap</subtopic>
+                <subtopic seconds="3600">Logging with env_logger</subtopic>
+                <subtopic seconds="3600">Configuration parsing</subtopic>
+                <subtopic seconds="3600">Multi-threading</subtopic>
+                <subtopic seconds="3600">Unit &amp; integration tests</subtopic>
+                <subtopic seconds="3600">Release build</subtopic>
+            </module>
+        </program>
+        <employment>junior</employment>
+    </course>
+
+
+    <course id="29">
+        <title>Go Developer</title>
+        <tagline>Востребованная профессия за 6 месяцев с нуля</tagline>
+        <duration>6 месяцев</duration>
+        <practicePercent>70</practicePercent>
+        <projectsCount>4</projectsCount>
+        <description>Серверная разработка на Go: горутины и микросервисы.</description>
+        <program>
+            <module>
+                <name>Основы Go</name>
+                <description>Синтаксис и среда.</description>
+                <category>Introductory</category>
+                <subtopic seconds="660">Go modules</subtopic>
+                <subtopic seconds="660">Go fmt и vet</subtopic>
+                <subtopic seconds="660">Типы данных</subtopic>
+                <subtopic seconds="660">Управление ошибками</subtopic>
+                <subtopic seconds="660">Struct и interface</subtopic>
+                <subtopic seconds="660">Package structure</subtopic>
+            </module>
+            <module>
+                <name>Concurrency</name>
+                <description>Горутины и каналы.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">go routines</subtopic>
+                <subtopic seconds="1800">Channels buffered vs unbuffered</subtopic>
+                <subtopic seconds="1800">Select statement</subtopic>
+                <subtopic seconds="1800">Sync primitives</subtopic>
+                <subtopic seconds="1800">Worker pools</subtopic>
+                <subtopic seconds="1800">Context for cancellation</subtopic>
+            </module>
+            <module>
+                <name>HTTP-сервер</name>
+                <description>net/http и middleware.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">http.HandleFunc</subtopic>
+                <subtopic seconds="1800">Router libraries</subtopic>
+                <subtopic seconds="1800">JSON encoding/decoding</subtopic>
+                <subtopic seconds="1800">Middleware chains</subtopic>
+                <subtopic seconds="1800">CORS handling</subtopic>
+                <subtopic seconds="1800">Graceful shutdown</subtopic>
+            </module>
+            <module>
+                <name>Микросервисы</name>
+                <description>gRPC и Protocol Buffers.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">proto files</subtopic>
+                <subtopic seconds="1800">Code generation</subtopic>
+                <subtopic seconds="1800">Unary vs stream RPC</subtopic>
+                <subtopic seconds="1800">Interceptors</subtopic>
+                <subtopic seconds="1800">Service discovery</subtopic>
+                <subtopic seconds="1800">Load balancing</subtopic>
+            </module>
+            <module>
+                <name>Data storage</name>
+                <description>SQL и NoSQL клиенты.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">database/sql</subtopic>
+                <subtopic seconds="1800">GORM basics</subtopic>
+                <subtopic seconds="1800">MongoDB driver</subtopic>
+                <subtopic seconds="1800">Caching with Redis</subtopic>
+                <subtopic seconds="1800">Connection pooling</subtopic>
+                <subtopic seconds="1800">Migrations with Goose</subtopic>
+            </module>
+            <module>
+                <name>Итоговый проект</name>
+                <description>Микросервисное приложение на Go.</description>
+                <category>Advanced</category>
+                <subtopic seconds="3600">Docker образ</subtopic>
+                <subtopic seconds="3600">Docker Compose</subtopic>
+                <subtopic seconds="3600">CI/CD pipeline</subtopic>
+                <subtopic seconds="3600">Kubernetes deploy</subtopic>
+                <subtopic seconds="3600">Health checks</subtopic>
+                <subtopic seconds="3600">Metrics и tracing</subtopic>
+            </module>
+        </program>
+        <employment>junior</employment>
+    </course>
+
+
+    <course id="30">
+        <title>UI Developer</title>
+        <tagline>Востребованная профессия за 5 месяцев с нуля</tagline>
+        <duration>5 месяцев</duration>
+        <practicePercent>80</practicePercent>
+        <projectsCount>5</projectsCount>
+        <description>Создание интерфейсов: HTML, CSS, Sass, JavaScript.</description>
+        <program>
+            <module>
+                <name>HTML &amp; CSS</name>
+                <description>Семантическая вёрстка и адаптивность.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Semantic HTML tags</subtopic>
+                <subtopic seconds="1800">Responsive design</subtopic>
+                <subtopic seconds="1800">Flexbox layout</subtopic>
+                <subtopic seconds="1800">CSS Grid basics</subtopic>
+                <subtopic seconds="1800">Accessibility checks</subtopic>
+                <subtopic seconds="1800">Meta viewport</subtopic>
+            </module>
+            <module>
+                <name>Sass &amp; PostCSS</name>
+                <description>Препроцессоры и автопрефиксы.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Variables и nesting</subtopic>
+                <subtopic seconds="1800">Mixins и extends</subtopic>
+                <subtopic seconds="1800">Autoprefixer</subtopic>
+                <subtopic seconds="1800">CSS modules</subtopic>
+                <subtopic seconds="1800">Responsive mixins</subtopic>
+                <subtopic seconds="1800">Critical CSS</subtopic>
+            </module>
+            <module>
+                <name>JavaScript для UI</name>
+                <description>DOM, события и модули.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Event delegation</subtopic>
+                <subtopic seconds="1800">Fetch API</subtopic>
+                <subtopic seconds="1800">ES6 modules</subtopic>
+                <subtopic seconds="1800">Async/await</subtopic>
+                <subtopic seconds="1800">LocalStorage</subtopic>
+                <subtopic seconds="1800">Template literals</subtopic>
+            </module>
+            <module>
+                <name>SVG и анимации</name>
+                <description>Векторная графика и transitions.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Inline SVG</subtopic>
+                <subtopic seconds="1800">SMIL basics</subtopic>
+                <subtopic seconds="1800">CSS animations</subtopic>
+                <subtopic seconds="1800">GSAP integration</subtopic>
+                <subtopic seconds="1800">Scroll-driven animations</subtopic>
+                <subtopic seconds="1800">Performance tips</subtopic>
+            </module>
+            <module>
+                <name>Component libraries</name>
+                <description>Tailwind, Bootstrap, Material UI.</description>
+                <category>Core</category>
+                <subtopic seconds="1800">Utility-first CSS</subtopic>
+                <subtopic seconds="1800">Theming</subtopic>
+                <subtopic seconds="1800">Custom components</subtopic>
+                <subtopic seconds="1800">Customization via config</subtopic>
+                <subtopic seconds="1800">Dark mode support</subtopic>
+                <subtopic seconds="1800">Plugin ecosystem</subtopic>
+            </module>
+            <module>
+                <name>Итоговый проект</name>
+                <description>Портфолио-сайт с интерактивными элементами.</description>
+                <category>Advanced</category>
+                <subtopic seconds="3600">Design handoff</subtopic>
+                <subtopic seconds="3600">Responsive navbar</subtopic>
+                <subtopic seconds="3600">Carousel implementation</subtopic>
+                <subtopic seconds="3600">Form validation</subtopic>
+                <subtopic seconds="3600">Lazy loading images</subtopic>
+                <subtopic seconds="3600">Deployment на Netlify</subtopic>
+            </module>
+        </program>
+        <employment>junior</employment>
+    </course>
+
+</courses>

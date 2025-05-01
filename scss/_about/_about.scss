@@ -1,0 +1,122 @@
+.about {
+    padding: 0;
+
+    @include media-breakpoint-down(lg) {
+        margin-top: 95px;
+        margin-bottom: 50px;
+    }
+
+    margin-top: 140px;
+    margin-bottom: 100px;
+    width: 100%;
+    background-color: $color-white;
+
+    &__content {
+        margin-bottom: 60px;
+    }
+
+    &__title {
+        height: 400px;
+
+        @include media-breakpoint-down(lg) {
+            height: 250px;
+        }
+
+        @include media-breakpoint-down(md) {
+            height: 200px;
+        }
+
+        position: relative;
+        font-family: $font-primary;
+        font-weight: 700;
+        font-size: 100px;
+        line-height: 100px;
+        margin-bottom: 40px;
+
+        div {
+            margin: 0;
+            line-height: 100px;
+        }
+
+        h1 {
+            margin: 0;
+            line-height: 100px;
+        }
+
+        div:nth-child(2) {
+            position: absolute;
+            left: 243px;
+            top: 100px
+        }
+
+        div:nth-child(3) {
+            position: absolute;
+            left: 140px;
+            top: 200px
+        }
+
+        div:nth-child(4) {
+            position: absolute;
+            left: 415px;
+            top: 300px
+        }
+
+        @include media-breakpoint-down(xl) {
+            font-size: 80px;
+            line-height: 80px;
+
+            div:nth-child(2) {
+                left: 230px;
+            }
+            div:nth-child(3) {
+                left: 70px;
+            }
+
+            div:nth-child(4) {
+                left: 265px;
+            }
+        }
+
+        @include media-breakpoint-down(lg) {
+            font-size: 50px;
+            line-height: 50px;
+
+            div:nth-child(2) {
+                top: 50px;
+            }
+
+            div:nth-child(3) {
+                top: 100px;
+            }
+
+            div:nth-child(4) {
+                top: 150px;
+            }
+        }
+
+        @include media-breakpoint-down(md) {
+            font-size: 30px;
+            line-height: 36px;
+
+            div:nth-child(2) {
+                left: 30px;
+                top: 36px;
+            }
+
+
+            div:nth-child(3) {
+                left: 8px;
+                top: 72px;
+            }
+
+            div:nth-child(4) {
+                left: 72px;
+                top: 108px;
+            }
+        }
+    }
+
+    &__title-accent {
+        color: $color-primary;
+    }
+} 

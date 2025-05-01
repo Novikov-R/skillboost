@@ -1,0 +1,255 @@
+.hero {
+    background: linear-gradient(to bottom, $color-hero-bg-start, $color-hero-bg-end);
+    position: relative;
+    color: $color-white;
+    overflow: hidden;
+    min-height: $hero-height;
+
+    @include media-breakpoint-down(lg) {
+        min-height: auto;
+    }
+
+    .container {
+        top: 0;
+        height: inherit;
+        position: relative;
+        z-index: 2;
+        padding: 120px 0;
+
+        @include media-breakpoint-down(lg) {
+            padding: 100px 0;
+        }
+
+        @include media-breakpoint-down(md) {
+            padding: 80px 0 50px;
+        }
+
+        @include media-breakpoint-down(sm) {
+            padding: 70px 0 40px;
+        }
+    }
+
+
+    &__bg {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: $container-width;
+        height: 100%;
+
+        @include media-breakpoint-down(sm) {
+            display: none;
+        }
+    }
+
+    &__content {
+        max-width: 550px;
+        position: relative;
+        z-index: 2;
+        @include flex(column, flex-start, flex-start);
+        gap: 30px;
+
+        @include media-breakpoint-down(md) {
+            max-width: 100%;
+            gap: 20px;
+        }
+    }
+
+    &__title {
+        font-size: $font-size-xxl;
+        font-weight: 700;
+        line-height: 1.2;
+        color: $color-white;
+
+        @include media-breakpoint-down(xl) {
+            font-size: 32px;
+        }
+
+        @include media-breakpoint-down(md) {
+            margin-top: 20px;
+            font-size: $font-size-large;
+        }
+
+        @include media-breakpoint-down(sm) {
+            font-size: 20px;
+            max-width: 60%;
+            br {
+                display: none;
+            }
+        }
+    }
+
+    &__stats-desc {
+        @include flex(row, flex-start, center);
+        gap: 5px;
+
+        @include media-breakpoint-down(sm) {
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 2px;
+        }
+    }
+
+    &__stats {
+        @include flex(row, flex-start, center);
+        gap: 15px;
+
+        @include media-breakpoint-down(sm) {
+            gap: 10px;
+        }
+
+        .lightning-icon {
+            width: 25px;
+            height: 24px;
+
+            @include media-breakpoint-down(xl) {
+                width: 20px;
+                height: 20px;
+            }
+        }
+    }
+
+    &__counter {
+        font-size: $font-size-large;
+        font-style: italic;
+        font-weight: 700;
+        display: inline-block;
+        margin-right: 10px;
+
+        @include media-breakpoint-down(xl) {
+            font-size: 20px;
+        }
+
+        @include media-breakpoint-down(md) {
+            font-size: $font-size-medium;
+        }
+
+        @include media-breakpoint-down(sm) {
+            font-size: $font-size-base;
+            margin-right: 5px;
+        }
+    }
+
+    &__text {
+        font-size: $font-size-small;
+        font-weight: 500;
+        margin: 0;
+        display: inline-block;
+
+        @include media-breakpoint-down(xl) {
+            font-size: 15px;
+        }
+
+        @include media-breakpoint-down(sm) {
+            font-size: $font-size-tiny;
+        }
+    }
+
+    &__image-wrapper {
+        width: $container-width;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+
+        @include media-breakpoint-down(xl) {
+            width: 100%;
+        }
+    }
+
+    &__image {
+        position: absolute;
+        left: 55%;
+        bottom: 0;
+        height: 90%;
+        z-index: 1;
+        transform: translateX(-50%);
+
+        @include media-breakpoint-down(xl) {
+            height: 80%;
+            left: 60%;
+        }
+
+        @include media-breakpoint-down(lg) {
+            left: 100%;
+            transform: translateX(-100%);
+        }
+
+        @include media-breakpoint-down(sm) {
+            left: 110%;
+        }
+    }
+
+    &__testimonial {
+        position: absolute;
+        right: 112px;
+        top: 80px;
+        background-color: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(10px);
+        border-radius: $border-radius;
+        padding: 14px;
+        max-width: 270px;
+        z-index: 2;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+
+        @include media-breakpoint-down(xl) {
+            right: 17px;
+        }
+
+        @include media-breakpoint-down(lg) {
+            display: none;
+        }
+    }
+
+    &__testimonial-header {
+        @include flex(row, space-between, center);
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+
+    &__testimonial-quote {
+        width: 15px;
+        height: 15px;
+    }
+
+    &__testimonial-name {
+        font-size: $font-size-small;
+        font-weight: 700;
+
+        @include media-breakpoint-down(sm) {
+            font-size: 14px;
+        }
+    }
+
+    &__testimonial-text {
+        font-size: $font-size-tiny;
+        font-weight: 700;
+        line-height: 1.5;
+        margin-bottom: 10px;
+
+        @include media-breakpoint-down(xl) {
+            font-size: 12px;
+        }
+    }
+
+    &__testimonial-company {
+        font-size: 12px;
+        opacity: 0.8;
+        font-style: italic;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+
+        @include media-breakpoint-down(sm) {
+            flex-wrap: wrap;
+        }
+
+        &-image {
+            @include media-breakpoint-down(sm) {
+                display: none;
+            }
+        }
+    }
+} 

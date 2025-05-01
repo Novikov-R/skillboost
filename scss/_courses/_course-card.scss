@@ -1,0 +1,57 @@
+.catalog-title {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.courses-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-bottom: 40px;
+    @include media-breakpoint-down(lg) {
+        grid-template-columns: 1fr;
+    }
+}
+
+.course-card {
+    width: 424px;
+
+    @include media-breakpoint-down(xxl) {
+        width: 100%;
+    }
+}
+
+.more-courses {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+
+    &__button {
+        padding: 12px 30px;
+        background-color: transparent;
+        border: 1px solid $color-primary;
+        border-radius: 30px;
+        color: $color-primary;
+        font-size: $font-size-base;
+        cursor: pointer;
+        transition: all 0.3s;
+
+        &:hover {
+            background-color: $color-primary;
+            color: $color-white;
+        }
+    }
+}
+
+@include media-breakpoint-down(sm) {
+    .courses-grid {
+        grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+    }
+
+    .course-card {
+        &__image {
+            height: 150px !important;
+        }
+    }
+} 

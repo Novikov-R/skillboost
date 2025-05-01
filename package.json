@@ -1,0 +1,22 @@
+{
+  "name": "skillboost",
+  "version": "1.0.0",
+  "description": "Образовательная платформа SkillBoost",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass scss/main.scss css/main.css",
+    "sass:watch": "sass --watch scss/main.scss css/main.css",
+    "build": "sass scss/main.scss css/main.css --style compressed"
+  },
+  "keywords": [
+    "education",
+    "courses",
+    "skills"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.70.0"
+  }
+}

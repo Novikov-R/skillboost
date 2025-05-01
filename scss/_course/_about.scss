@@ -1,0 +1,86 @@
+.course-about {
+    margin-top: 58px;
+    padding-left: 46px;
+
+    .course-header {
+        font-weight: 500;
+        font-size: 36px;
+        text-align: left;
+    }
+
+    .course-description {
+        margin-top: 19px;
+        font-size: $font-size-base;
+        line-height: 1.2;
+        text-align: left;
+        font-weight: 500;
+        width: 1000px;
+    }
+
+    // Адаптивные стили
+    @include media-breakpoint-down(xl) {
+        .course-description {
+            width: 90%;
+        }
+    }
+
+    @include media-breakpoint-down(lg) {
+        padding-left: 25px;
+
+        .course-header {
+            font-size: 30px;
+        }
+
+        .course-description {
+            width: 95%;
+        }
+    }
+
+    @include media-breakpoint-down(md) {
+        margin-top: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+
+        .course-header {
+            font-size: 26px;
+        }
+
+        .course-description {
+            width: 100%;
+            font-size: $font-size-small;
+        }
+    }
+
+    @include media-breakpoint-down(sm) {
+        margin-top: 30px;
+        padding-left: 16px;
+        padding-right: 16px;
+
+        .course-header {
+            font-size: 22px;
+        }
+
+        .course-description {
+            margin-top: 15px;
+            font-size: $font-size-tiny;
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    .course-about {
+        margin-top: 25px;
+        padding-left: 12px;
+        padding-right: 12px;
+
+        .course-header {
+            font-size: 18px;
+        }
+
+        .course-description {
+            margin-top: 10px;
+            font-size: 12px;
+            line-height: 1.3;
+        }
+    }
+} 

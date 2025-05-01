@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Каталог курсов - SkillBoost</title>
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="icon" href="icons/logo.svg" type="image/svg+xml">
+</head>
+<body>
+<header class="header header--dark">
+	<div class="container">
+		<div class="header__wrapper">
+			<a href="./" class="logo">
+				<img src="icons/logo.svg" alt="SkillBoost">
+			</a>
+			<nav class="navigation">
+				<ul class="navigation__list">
+					<li class="navigation__item"><a href="courses.html" class="navigation__link active">Каталог</a></li>
+					<li class="navigation__item"><a href="about.html" class="navigation__link">О SkillBoost</a></li>
+					<li class="navigation__item"><a href="signin.html" class="navigation__link">Войти</a></li>
+				</ul>
+			</nav>
+			<button class="header__mobile-toggle">
+				<span></span>
+			</button>
+		</div>
+	</div>
+</header>
+
+<section class="platform-info">
+	<div class="platform-info__text">
+		<p class="platform-info__paragraph">
+			Обучаем программированию, Data Science, тестированию, аналитике данных, кибербезопасности, разработке игр,
+			IT-рекрутингу и менеджменту с 2016 года.
+		</p>
+		<p class="platform-info__paragraph">
+			Даем <span>реальный опыт</span>: сотрудничаем с компаниями, которые приносят для практики настоящие
+			бизнес-задачи. Готовые проекты можно добавить в портфолио, чтобы выгодно выделяться среди других
+			соискателей.
+		</p>
+		<p class="platform-info__paragraph">
+			Помогаем с трудоустройством: проводим ревью резюме, репетиции собеседований, знакомим с ключевыми
+			работодателями
+		</p>
+	</div>
+	<div class="platform-info__image">
+		<img src="images/courses_promo.png" alt="Ученик SkillBoost">
+	</div>
+</section>
+
+<section class="catalog">
+	<div class="container">
+
+		<div class="catalog-filters">
+			<div class="catalog-filter">
+				<label>
+					<input type="text" placeholder="Профессия, навык" class="catalog-filter__input">
+				</label>
+			</div>
+			<div class="tags-filter">
+				<div class="tags-filter__list">
+					<a href="#" class="tag-button tag-button--active">Все программы</a>
+					<a href="#" class="tag-button">Бэкенд-разработка</a>
+					<a href="#" class="tag-button">Веб-разработка</a>
+					<a href="#" class="tag-button">Анализ данных</a>
+					<a href="#" class="tag-button">IT-инфраструктура</a>
+				</div>
+			</div>
+
+			<div class="difficulty-filter">
+				<div class="difficulty-filter__title">Уровень сложности</div>
+				<div class="difficulty-filter__options">
+					<label class="radio-option">
+						<input type="radio" name="difficulty" checked>
+						<span class="radio-option__text">Любой</span>
+					</label>
+					<label class="radio-option">
+						<input type="radio" name="difficulty">
+						<span class="radio-option__text">Для новичков</span>
+					</label>
+					<label class="radio-option">
+						<input type="radio" name="difficulty">
+						<span class="radio-option__text">Для специалистов</span>
+					</label>
+				</div>
+			</div>
+
+			<div class="duration-filter">
+				<div class="duration-filter__title">Длительность</div>
+				<div class="duration-filter__slider">
+					<div class="duration-filter__label">От 1 до 6 месяцев</div>
+					<div class="range-slider">
+						<div class="range-slider__track"></div>
+						<div class="range-slider__thumb"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="courses_catalog">
+			<h1 class="catalog-title">Онлайн-курсы по IT-профессиям (30)</h1>
+
+			<div class="courses-grid">
+			</div>
+
+			<div class="more-courses">
+				<button class="more-courses__button">Еще 10 курсов из 19</button>
+			</div>
+		</div>
+	</div>
+</section>
+
+<footer class="footer">
+	<div class="container">
+		<div class="footer__contact">
+			<div class="footer__contact-info">
+				<h2 class="footer__contact-title">Поможем решить<br>все вопросы</h2>
+				<p class="footer__contact-text">Если вы хотите больше узнать о SkillBoost<br>или не знаете, какую
+					программу обучения выбрать,<br>оставьте заявку — и мы перезвоним</p>
+			</div>
+			<form class="footer__contact-form">
+				<div class="form-group" id="name">
+					<label>
+						<input type="text" class="form-input" placeholder="Имя">
+					</label>
+				</div>
+				<div class="form-group form-group--row" id="tel">
+					<label>
+						<input type="tel" class="form-input" placeholder="+375 (xx) xxx-xx-xx">
+					</label>
+				</div>
+				<div class="form-group" id="email">
+					<label>
+						<input type="email" class="form-input" placeholder="Электронная почта">
+					</label>
+				</div>
+				<button type="submit" class="button button--primary">Отправить</button>
+			</form>
+		</div>
+
+		<div class="footer__content">
+			<div class="footer__content--header">
+				<div class="footer__brand">
+					<a href="index.html" class="logo footer__logo">
+						<img src="icons/logo.svg" alt="SkillBoost">
+					</a>
+					<div class="footer__contacts">
+						<div class="footer__phone footer__phone--primary">
+							<a href="tel:+375296265321">+375 29 62 65 321</a>
+						</div>
+						<div class="footer__phone">
+							<a href="tel:+375331235678">+375 33 123 56 78</a>
+						</div>
+						<div class="footer__address">
+							Минск, ул. Свердлова, 13а
+						</div>
+					</div>
+				</div>
+
+				<div class="footer__menu">
+					<div class="footer__column">
+						<a href="courses.html"><h4 class="footer__title">Наши курсы</h4></a>
+					</div>
+					<div class="footer__column">
+						<a href="about.html"><h4 class="footer__title">О SkillBoost</h4></a>
+					</div>
+				</div>
+			</div>
+
+			<p class="footer__copyright">
+				© SkillBoost, 2025
+			</p>
+		</div>
+
+	</div>
+</footer>
+
+<script src="js/pages/catalog.js" type="module"></script>
+</body>
+</html> 

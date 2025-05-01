@@ -1,0 +1,156 @@
+.course-hero {
+    &__content {
+        background: $color-light-gray;
+        margin-top: 155px;
+        border-radius: $border-radius-lg;
+        padding: 40px 0 40px 40px;
+        height: 550px;
+    }
+
+    &__subtitle {
+        font-weight: 500;
+        color: #000000;
+        font-size: 20px;
+        margin: 50px 0 0;
+    }
+
+    .btn {
+        @include button-primary;
+        width: 300px;
+        height: 56px;
+        border-radius: 12px;
+        font-size: $font-size-small;
+        margin-top: 72px;
+    }
+
+    &__title {
+        @include font($font-size-xxl, 500, 1.1);
+        margin-top: 24px;
+        max-width: 600px;
+    }
+
+    &__content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        position: relative;
+    }
+
+    // Адаптивные стили
+    @include media-breakpoint-down(xl) {
+        &__content {
+            height: auto;
+            padding: 30px 0 30px 30px;
+        }
+
+        &__title {
+            @include font($font-size-xl, 500, 1.1);
+            max-width: 500px;
+        }
+    }
+
+    @include media-breakpoint-down(lg) {
+        &__content {
+            padding: 25px 0 25px 25px;
+            margin-top: 120px;
+        }
+
+        &__subtitle {
+            font-size: 18px;
+            margin: 40px 0 0;
+        }
+
+        &__title {
+            font-size: 32px;
+            max-width: 400px;
+        }
+
+        .btn {
+            width: 250px;
+            height: 50px;
+            margin-top: 50px;
+        }
+    }
+
+    @include media-breakpoint-down(md) {
+        &__content {
+            grid-template-columns: 1fr;
+            padding: 20px;
+            margin-top: 100px;
+        }
+
+        &__subtitle {
+            margin: 20px 0 0;
+        }
+
+        &__title {
+            font-size: 28px;
+            margin-top: 16px;
+            max-width: 100%;
+        }
+
+        .btn {
+            margin-top: 30px;
+            width: 100%;
+            max-width: 300px;
+        }
+
+        &__right {
+            margin-top: 30px;
+            text-align: center;
+
+            img {
+                max-width: 100%;
+                height: auto;
+            }
+        }
+    }
+
+    @include media-breakpoint-down(sm) {
+        &__content {
+            margin-top: 80px;
+            padding: 16px;
+            border-radius: $border-radius;
+        }
+
+        &__subtitle {
+            font-size: 16px;
+        }
+
+        &__title {
+            font-size: 24px;
+        }
+
+        .btn {
+            height: 46px;
+            font-size: 14px;
+        }
+
+        @media (max-width: 400px) {
+            &__content {
+                margin-top: 70px;
+                padding: 12px;
+            }
+
+            &__subtitle {
+                font-size: 14px;
+                margin: 10px 0 0;
+            }
+
+            &__title {
+                font-size: 20px;
+                margin-top: 10px;
+                line-height: 1.2;
+            }
+
+            .btn {
+                margin-top: 20px;
+                height: 40px;
+                font-size: 13px;
+            }
+
+            &__right {
+                margin-top: 20px;
+            }
+        }
+    }
+} 

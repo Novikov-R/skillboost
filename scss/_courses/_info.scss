@@ -1,0 +1,64 @@
+.platform-info {
+    padding-left: 24px;
+    padding-right: 64px;
+    @include flex(row, center, center);
+    gap: 97px;
+    margin-bottom: 60px;
+
+    @include media-breakpoint-down(xl) {
+        margin-top: 115px;
+        padding: 0 50px;
+    }
+
+    &__text {
+        width: 620px;
+    }
+
+    &__paragraph {
+        text-align: center;
+        margin-bottom: 20px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1;
+        color: $color-text;
+
+        @include media-breakpoint-down(lg) {
+            font-size: 18px;
+        }
+
+        span {
+            font-weight: 600;
+            color: $color-primary;
+        }
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    &__image {
+        width: 448px;
+        overflow: hidden;
+
+        img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+    }
+
+    @include media-breakpoint-down(md) {
+        flex-direction: column;
+        gap: 0;
+        margin-bottom: 30px;
+
+        &__text {
+            max-width: 100%;
+            margin-bottom: 30px;
+        }
+
+        &__image {
+            width: 100%;
+        }
+    }
+}

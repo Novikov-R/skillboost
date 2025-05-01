@@ -1,0 +1,391 @@
+.catalog-filters {
+    width: 300px;
+
+    @include media-breakpoint-down(xl) {
+        width: 100%;
+    }
+
+    @include media-breakpoint-down(md) {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        border-bottom: 1px solid rgba($color-text, 0.1);
+        padding-bottom: 30px;
+        margin-bottom: 20px;
+        transition: max-height 0.3s ease;
+        overflow: hidden;
+
+        &.filters-collapsed {
+            max-height: 0;
+            padding-top: 0;
+            padding-bottom: 0;
+            margin-bottom: 0;
+            border-bottom: none;
+        }
+    }
+
+    @include media-breakpoint-down(sm) {
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+}
+
+.catalog-filter {
+    margin-bottom: 20px;
+
+    @include media-breakpoint-down(md) {
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    &__input {
+        width: 100%;
+        max-width: 300px;
+        padding: 15px;
+        border: 1px solid rgba($color-text, 0.2);
+        border-radius: 10px;
+        font-size: $font-size-small;
+        outline: none;
+        background-color: #F5F5F5;
+
+        @include media-breakpoint-down(md) {
+            max-width: 100%;
+        }
+
+        @include media-breakpoint-down(sm) {
+            padding: 12px;
+            font-size: $font-size-tiny;
+        }
+
+        &::placeholder {
+            color: $color-text-secondary;
+        }
+
+        &:focus {
+            border-color: $color-primary;
+        }
+    }
+}
+
+.tags-filter {
+    margin-top: 45px;
+
+    @include media-breakpoint-down(md) {
+        margin-top: 0;
+        width: calc(50% - 10px);
+    }
+
+    @include media-breakpoint-down(sm) {
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    &__list {
+        @include flex(column, flex-start, flex-start);
+        gap: 4px;
+
+        @include media-breakpoint-down(md) {
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+    }
+
+    &:after {
+        content: "";
+        height: 1px;
+        display: block;
+        margin-top: 38px;
+        background: #000;
+        width: 100%;
+
+        @include media-breakpoint-down(md) {
+            display: none;
+        }
+    }
+}
+
+.tag-button {
+    display: inline-block;
+    padding: 8px 15px;
+    border-radius: 20px;
+    background-color: #F5F5F5;
+    color: $color-text;
+    font-size: $font-size-small;
+    text-decoration: none;
+    transition: all 0.3s;
+
+    @include media-breakpoint-down(sm) {
+        padding: 6px 12px;
+        font-size: $font-size-tiny;
+    }
+
+    &:hover {
+        background-color: darken(#F5F5F5, 5%);
+    }
+
+    &--active {
+        background-color: $color-primary;
+        color: $color-white;
+
+        &:hover {
+            background-color: darken($color-primary, 5%);
+        }
+    }
+}
+
+.difficulty-filter {
+    margin-top: 30px;
+
+    @include media-breakpoint-down(md) {
+        margin-top: 0;
+        width: calc(50% - 10px);
+    }
+
+    @include media-breakpoint-down(sm) {
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    &__title {
+        font-size: $font-size-base;
+        font-weight: 600;
+        margin-bottom: 15px;
+
+        @include media-breakpoint-down(sm) {
+            font-size: $font-size-small;
+            margin-bottom: 10px;
+        }
+    }
+
+    &__options {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        @include media-breakpoint-down(md) {
+            gap: 8px;
+        }
+    }
+}
+
+.radio-option {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    input[type="radio"] {
+        appearance: none;
+        width: 18px;
+        height: 18px;
+        border: 2px solid rgba($color-text, 0.3);
+        border-radius: 50%;
+        margin-right: 10px;
+        position: relative;
+
+        @include media-breakpoint-down(sm) {
+            width: 16px;
+            height: 16px;
+        }
+
+        &:checked {
+            border-color: $color-primary;
+
+            &:after {
+                content: '';
+                position: absolute;
+                width: 10px;
+                height: 10px;
+                background-color: $color-primary;
+                border-radius: 50%;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+
+                @include media-breakpoint-down(sm) {
+                    width: 8px;
+                    height: 8px;
+                }
+            }
+        }
+    }
+
+    &__text {
+        font-size: $font-size-small;
+
+        @include media-breakpoint-down(sm) {
+            font-size: $font-size-tiny;
+        }
+    }
+}
+
+.duration-filter {
+    margin-top: 40px;
+    margin-bottom: 30px;
+
+    @include media-breakpoint-down(md) {
+        margin-top: 0;
+        margin-bottom: 0;
+        width: 100%;
+    }
+
+    &__title {
+        font-size: $font-size-base;
+        font-weight: 600;
+        margin-bottom: 15px;
+
+        @include media-breakpoint-down(sm) {
+            font-size: $font-size-small;
+            margin-bottom: 10px;
+        }
+    }
+
+    &__label {
+        font-size: $font-size-small;
+        color: $color-text-secondary;
+        margin-bottom: 10px;
+
+        @include media-breakpoint-down(sm) {
+            font-size: $font-size-tiny;
+            margin-bottom: 8px;
+        }
+    }
+
+    &__slider {
+        margin-top: 10px;
+    }
+}
+
+.range-slider {
+    position: relative;
+    height: 4px;
+    background-color: rgba($color-text, 0.1);
+    border-radius: 2px;
+    width: 100%;
+    max-width: 300px;
+
+    @include media-breakpoint-down(md) {
+        max-width: 100%;
+    }
+
+    &__track {
+        position: absolute;
+        height: 100%;
+        background-color: $color-primary;
+        border-radius: 2px;
+        left: 0%;
+        width: 100%;
+    }
+
+    &__thumb {
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        background-color: $color-white;
+        border: 2px solid $color-primary;
+        border-radius: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        cursor: pointer;
+        z-index: 5;
+
+        &:hover {
+            background-color: lighten($color-primary, 40%);
+        }
+
+        &:active {
+            background-color: lighten($color-primary, 30%);
+            transform: translate(-50%, -50%) scale(1.1);
+        }
+
+        &--min {
+            left: 0%;
+        }
+
+        &--max {
+            left: 100%;
+        }
+
+        @include media-breakpoint-down(sm) {
+            width: 14px;
+            height: 14px;
+        }
+    }
+}
+
+// Кнопка для отображения/скрытия фильтров на мобильных
+.filters-toggle {
+    display: none;
+    background-color: $color-white;
+    border: 1px solid rgba($color-text, 0.2);
+    border-radius: $border-radius;
+    padding: 10px 20px;
+    font-size: $font-size-small;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-bottom: 20px;
+    position: relative;
+
+    @include media-breakpoint-down(md) {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    @include media-breakpoint-down(sm) {
+        width: 100%;
+        padding: 8px 15px;
+        font-size: $font-size-tiny;
+    }
+
+    &:hover {
+        background-color: $color-light-gray;
+    }
+
+    &--active {
+        background-color: $color-primary;
+        color: $color-white;
+
+        .filters-toggle__icon:before,
+        .filters-toggle__icon:after {
+            background-color: $color-white;
+        }
+    }
+
+    &__icon {
+        position: relative;
+        width: 16px;
+        height: 16px;
+        margin-left: 10px;
+
+        &:before,
+        &:after {
+            content: '';
+            position: absolute;
+            background-color: $color-text;
+            transition: transform 0.3s;
+        }
+
+        &:before {
+            width: 100%;
+            height: 2px;
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+        }
+
+        &:after {
+            width: 2px;
+            height: 100%;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+
+    &--active .filters-toggle__icon:after {
+        transform: translateX(-50%) rotate(90deg);
+    }
+} 

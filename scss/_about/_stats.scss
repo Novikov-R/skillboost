@@ -1,0 +1,108 @@
+.stats {
+    margin-bottom: 100px;
+
+    &__wrapper {
+        @include flex(row, space-between, flex-start, nowrap);
+        gap: 70px;
+
+        @include media-breakpoint-down(lg) {
+            flex-direction: column;
+        }
+    }
+
+    &__description {
+        flex: 0 0 30%;
+        max-width: 360px;
+
+        p {
+            font-family: $font-primary;
+            font-weight: medium;
+            font-size: 20px;
+            line-height: 1.5;
+            margin: 0;
+
+            @include media-breakpoint-down(sm) {
+                text-align: center;
+            }
+        }
+
+        @include media-breakpoint-down(lg) {
+            flex: 0 0 100%;
+            max-width: 100%;
+            margin-bottom: 30px;
+        }
+
+        @include media-breakpoint-down(sm) {
+            margin-bottom: 0;
+        }
+    }
+
+    &__list {
+        flex: 0 0 65%;
+        @include flex(row, space-between, stretch, wrap);
+        gap: 20px;
+
+        @include media-breakpoint-down(lg) {
+            flex: 0 0 100%;
+        }
+
+        @include media-breakpoint-down(md) {
+            justify-content: center;
+        }
+    }
+
+    &__item {
+        height: 200px;
+        @include flex(column, space-between, flex-start);
+        flex: 0 1 calc(50% - 10px);
+        min-width: 250px;
+        position: relative;
+        padding: 50px 40px;
+
+        @include media-breakpoint-down(md) {
+            width: 100%;
+        }
+
+        @include media-breakpoint-down(sm) {
+            padding: 40px 30px;
+        }
+    }
+
+    &__background {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: $color-light-gray;
+        border-radius: 10px;
+        z-index: -1;
+    }
+
+    &__number {
+        font-family: $font-primary;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 1;
+        margin-bottom: 15px;
+
+        @include media-breakpoint-down(lg) {
+            font-size: 40px;
+        }
+
+        @include media-breakpoint-down(sm) {
+            font-size: 35px;
+        }
+    }
+
+    &__text {
+        font-family: $font-primary;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 1;
+
+        @include media-breakpoint-down(lg) {
+            font-size: 20px;
+        }
+    }
+} 
