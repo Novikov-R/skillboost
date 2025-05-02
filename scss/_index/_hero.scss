@@ -57,18 +57,13 @@
     }
 
     &__title {
-        font-size: $font-size-xxl;
+        font-size: $font-size-large;
         font-weight: 700;
         line-height: 1.2;
         color: $color-white;
 
-        @include media-breakpoint-down(xl) {
-            font-size: 32px;
-        }
-
         @include media-breakpoint-down(md) {
             margin-top: 20px;
-            font-size: $font-size-large;
         }
 
         @include media-breakpoint-down(sm) {
