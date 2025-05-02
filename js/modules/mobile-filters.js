@@ -28,6 +28,16 @@ export function initMobileFilters() {
 			filtersContainer.classList.toggle('filters-collapsed');
 			filtersToggle.classList.toggle('filters-toggle--active');
 		});
+		
+		// Предотвращаем закрытие фильтров при клике на поля ввода
+		const inputField = document.querySelector('.catalog-filter__input');
+		if (inputField) {
+			inputField.addEventListener('click', (e) => {
+				e.stopPropagation();
+				filtersContainer.classList.remove('filters-collapsed');
+				filtersToggle.classList.add('filters-toggle--active');
+			});
+		}
 
 		window.addEventListener('resize', () => {
 			if (window.innerWidth >= 768) {

@@ -159,9 +159,9 @@
     }
 
     &__button {
-        background-color: $color-white;
-        border: 1px solid rgba($color-text, 0.2);
-        border-radius: $border-radius;
+        background-color: black;
+        border: 1px solid black;
+        border-radius: 12px;
         padding: 12px 30px;
         font-size: $font-size-base;
         cursor: pointer;
@@ -180,7 +180,7 @@
         }
 
         &:hover {
-            background-color: $color-light-gray;
+            border-color: $color-primary;
         }
     }
 }

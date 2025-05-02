@@ -155,18 +155,26 @@ function initDurationFilter() {
 		let position = (clientX - rect.left) / rect.width;
 		position = Math.max(0, Math.min(1, position));
 
+		const steps = maxValue - minValue;
+		const stepSize = 1 / steps;
+
+		const stepIndex = Math.round(position / stepSize);
+		position = stepSize * stepIndex;
+		
 		if (activeThumb === minThumb) {
 			const maxPosition = parseFloat(maxThumb.style.left) / 100;
-			position = Math.min(position, maxPosition - 0.05);
-
-			minThumb.style.left = `${position * 100}%`;
-			currentMinValue = Math.max(minValue, Math.round(position * (maxValue - minValue)) + minValue);
+			const maxStepForMin = Math.floor(maxPosition / stepSize) - 1;
+			const allowedPosition = Math.min(stepIndex, maxStepForMin) * stepSize;
+			
+			minThumb.style.left = `${allowedPosition * 100}%`;
+			currentMinValue = Math.max(minValue, Math.round(allowedPosition * steps) + minValue);
 		} else if (activeThumb === maxThumb) {
 			const minPosition = parseFloat(minThumb.style.left) / 100;
-			position = Math.max(position, minPosition + 0.05);
-
-			maxThumb.style.left = `${position * 100}%`;
-			currentMaxValue = Math.min(maxValue, Math.round(position * (maxValue - minValue)) + minValue);
+			const minStepForMax = Math.ceil(minPosition / stepSize) + 1;
+			const allowedPosition = Math.max(stepIndex, minStepForMax) * stepSize;
+			
+			maxThumb.style.left = `${allowedPosition * 100}%`;
+			currentMaxValue = Math.min(maxValue, Math.round(allowedPosition * steps) + minValue);
 		}
 
 		if (durationTrack) {
