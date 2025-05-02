@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
 	const showLoginBtn = document.getElementById('show-login');
 	const showRegisterBtn = document.getElementById('show-register');
 
-	showLoginBtn.addEventListener('click', () => {
+	const showLogin = () => {
 		authContainer.classList.add("login");
 		registerForm.classList.remove('active');
 		registerForm.classList.add('inactive');
@@ -13,9 +13,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
 		loginForm.classList.remove('inactive');
 		loginForm.classList.add('active');
-	});
+	}
 
-	showRegisterBtn.addEventListener('click', () => {
+	showLoginBtn.addEventListener('click', showLogin);
+
+	showLogin();
+
+
+	const showRegister = () => {
 		authContainer.classList.remove("login");
 		loginForm.classList.remove('active');
 		loginForm.classList.add('inactive');
@@ -23,7 +28,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
 		registerForm.classList.remove('inactive');
 		registerForm.classList.add('active');
-	});
+	}
+
+	showRegisterBtn.addEventListener('click', showRegister);
 
 	registerForm.classList.add('active');
 
