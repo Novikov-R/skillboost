@@ -44,7 +44,7 @@ function createCourseCard(title, duration, imgSrc = 'images/python_course.png', 
 		courseCard.innerHTML = createCourseCardHTML(title, duration, imgSrc, isIndexPage);
 
 		courseCard.addEventListener('click', () => {
-			window.location.href = `/course.html?id=${courseId}`;
+			window.location.href = `skillboost/course.html?id=${courseId}`;
 		});
 	} catch (e) {
 		console.error(`Ошибка при создании карточки для курса ${title}:`, e);
