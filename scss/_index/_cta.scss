@@ -197,6 +197,15 @@
             width: 187px;
             height: 56px;
             padding: 18px 27px;
+            background-color: $color-primary;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+
+            &:hover {
+                color: white;
+                background-color: darken($color-primary, 10%);
+            }
 
             @include media-breakpoint-down(md) {
                 width: 160px;
@@ -229,14 +238,6 @@
                 }
             }
 
-            background-color: $color-primary;
-            border: none;
-            cursor: pointer;
-            transition: background-color 0.3s ease;
-
-            &:hover {
-                background-color: darken($color-primary, 10%);
-            }
         }
     }
 } 

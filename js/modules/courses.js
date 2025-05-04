@@ -60,7 +60,6 @@ function createCourseCard(title, duration, imgSrc = 'images/python_course.png', 
  * @returns {HTMLElement} - DOM элемент карточки
  */
 function createCourseCardFromXML(courseElement, isIndexPage = false) {
-	console.log(`Создаем карточку из XML элемента`);
 	try {
 		if (!courseElement) {
 			console.error('courseElement не существует');
